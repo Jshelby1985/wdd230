@@ -5,59 +5,67 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:black;
+    height: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    
+}
+
+h2 {
+    font-size: 1rem;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(88, 99, 73);
+    margin-bottom: .5rem;
+    text-align: center;
 }
 
 header, main, footer {
-    max-width: 500px;
-    margin:0 auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+    margin: 0 auto;
+    background-color: rgb(133, 145, 114);
+
 }
 
 header {
-    margin: 1rem auto;
-    border: 3px solid rgb(25, 4, 118);
-    padding: .5rem;
+    border: 3px solid rgb(88, 99, 73);
     background-color: rgb(245, 168, 26);
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
+    text-align: center;
 }
 
 header img {
-    width: 80%;
+    width: 200px;
     height: auto;
+    margin-bottom: .5rem;
 }
-/* h2{
-    display:grid;
-    grid-template-columns: 100 px;
-    grid-column: 2;
-} */
 
 footer{
-    margin: 1rem auto;
-    border: 3px solid rgb(25, 4, 118);
+    font-size: .8rem;
+    text-align: center;
+    border: 3px solid rgb(88, 99, 73);
     padding: .5rem;
-    background-color: rgb(138, 154, 228);
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    background-color: rgb(245, 168, 26);
 }
 #currentdate {
 	color: rgb(25, 4, 118);
 }
 
-h2 {
-    padding-left: 1rem;
-}
-
 ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
     padding-left: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     line-height: 1.5;
-    border-top: 1px solid rgb(178, 177, 177);
-    border-bottom: 1px solid rgb(178, 177, 177);
+    border-top: 2px solid rgb(88, 99, 73);
+    border-bottom: 2px solid rgb(88, 99, 73);
+    /* text-align: center; */
 
 }
