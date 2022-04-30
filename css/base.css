@@ -36,6 +36,8 @@ header {
     border: 3px solid rgb(88, 99, 73);
     background-color: rgb(245, 168, 26);
     text-align: center;
+    grid-template-columns: 1fr;
+
 }
 
 header img {
