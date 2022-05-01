@@ -40,6 +40,8 @@
     #chase img{
         max-width: auto;
         align-items: center;
+        box-shadow: 0 10px 30px rgb(36, 112, 233);
+
     }
     
     #timber{
@@ -51,6 +53,8 @@
     
     #timber img{
         max-width: auto;
+        box-shadow: 0 10px 30px rgb(54, 149, 154);
+
     }
     
     #marvel{
@@ -61,6 +65,8 @@
     
     #marvel img{
         max-width: auto;
+        box-shadow: 0 10px 30px rgb(233, 62, 36);
+
     }
     
 }
