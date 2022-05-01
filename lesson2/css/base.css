@@ -25,6 +25,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    line-height: 1.5rem;
+}
+
 header, main, footer {
     padding: 0.75rem;
     max-width: 45rem;
