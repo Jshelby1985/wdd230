@@ -68,3 +68,11 @@ ul {
     border-top: 2px solid rgb(88, 99, 73);
     border-bottom: 2px solid rgb(88, 99, 73);
 }
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:rgb(245, 168, 26)
+}
