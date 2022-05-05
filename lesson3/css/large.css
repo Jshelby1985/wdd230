@@ -1,10 +1,10 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 60em) {
     h1{ 
         font-size: 2rem;
     }
     h2{
         font-size: 1.5rem;
-        text-align: left;
+        text-align: center;
         line-height: 1.5rem;
     }
     body{
@@ -12,7 +12,7 @@
     }
     header img {
         box-shadow: 0 10px 30px rgb(88, 99, 73);
-        /* float: right; */
+        float: right;
         border-radius: 10px 10px 10px 10px;
     }
     header{
@@ -21,9 +21,19 @@
         grid-template-columns: 1fr 1fr;
         }
 
-    ul{
-        text-align: left;
+    footer{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }    
+
+    nav{
+        padding: auto;
+        margin: auto;
     }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+    
 }
 
-/* h2 {color: violet;} */
