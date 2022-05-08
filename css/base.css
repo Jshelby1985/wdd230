@@ -15,6 +15,8 @@ body {
 
 h1 {
     font-size: 1.75rem;
+    font-family: var(--h1-font);
+
 }
 
 h2 {
@@ -23,6 +25,8 @@ h2 {
     text-shadow: 2px 2px 5px rgb(88, 99, 73);
     margin-bottom: .5rem;
     text-align: center;
+    font-family: var(--h2-font);
+
 }
 
 header, main, footer {
