@@ -10,8 +10,9 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     height: 100%;
-    align-items: center;
-    text-align: center;  
+    align-content: center;
+    text-align: center; 
+ 
 }
 
 div img{
@@ -40,9 +41,26 @@ h2 {
     padding: 0.75rem;
 
 }
+
+#nav-bar{
+    display:block;
+    max-width: 400px;
+    background-color: #c82828;
+
+}
+#boarder{
+    display: block;
+    max-width: 400px;
+    background-color: #18168f;
+    color: white;
+}
+#background{
+    display: block;
+    max-width: 400px;
+}
+
 main{
-    text-align: left;
-    /* align-content: center; */
+    align-content: center;
 }
 
 header,nav, main, footer {
