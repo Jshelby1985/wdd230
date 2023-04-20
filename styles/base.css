@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --h2-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --h1-font: 'Crimson Pro', serif;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color:black;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-family: var(--h1-font);
+
+}
+
+h2 {
+    font-size: 1rem;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(88, 99, 73);
+    margin-bottom: .5rem;
+    text-align: center;
+    font-family: var(--h2-font);
+
+}
+
+header, main, footer {
+    padding: 0.75rem;
+    max-width: 45rem;
+    margin: 0 auto;
+    background-color: rgb(133, 145, 114);
+}
+
+header {
+    border: 3px solid rgb(88, 99, 73);
+    background-color: rgb(245, 168, 26);
+    text-align: center;
+    grid-template-columns: 1fr;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    margin-bottom: .5rem;
+}
+
+footer{
+    font-size: .8rem;
+    text-align: center;
+    border: 3px solid rgb(88, 99, 73);
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    background-color: rgb(245, 168, 26);
+}
+
+#currentdate {
+	color: rgb(25, 4, 118);
+}
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+    border-top: 2px solid rgb(88, 99, 73);
+    border-bottom: 2px solid rgb(88, 99, 73);
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:rgb(245, 168, 26)
+}
