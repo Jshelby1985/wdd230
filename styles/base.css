@@ -40,11 +40,9 @@ header {
     border: 3px solid rgb(88, 99, 73);
     background-color: rgb(245, 168, 26);
     align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 header img {

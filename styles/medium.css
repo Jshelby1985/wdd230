@@ -1,5 +1,5 @@
-@media only screen and (min-width:32.5em){
-    h1{
+@media only screen and (min-width: 32.5em) {
+    h1{ 
         font-size: 2rem;
     }
     h2{
@@ -7,9 +7,21 @@
         text-align: left;
         line-height: 1.5rem;
     }
-    header img{
+    body{
+        line-height: 5;
+    }
+    header img {
         box-shadow: 0 10px 30px rgb(88, 99, 73);
-        float: right;
+        /* float: right; */
         border-radius: 10px 10px 10px 10px;
+    }
+    header{
+        border-radius: 10px 10px 0px 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+
+    ul{
+        text-align: left;
     }
 }
