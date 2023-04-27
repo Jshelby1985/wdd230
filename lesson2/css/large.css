@@ -1,0 +1,74 @@
+@media only screen and (min-width: 65em) {
+    h1{ 
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    body{
+        line-height: 5;
+    }
+    header img {
+        box-shadow: 0 10px 30px rgb(88, 99, 73);
+        float: right;
+        border-radius: 10px 10px 10px 10px;
+    }
+    header{
+        border-radius: 10px 10px 0px 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }    
+
+    #chase{
+        grid-column: 1;
+        grid-row: 1;
+        max-width: 12em;
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+    }
+    #chase img{
+        max-width: 12em;
+    }
+    
+    #timber{
+        grid-column: 2;
+        grid-row: 1;
+        max-width: 12em;
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+    }
+    
+    #timber img{
+        max-width: 12em;
+    }
+    
+    #marvel{
+        grid-column: 3;
+        grid-row: 1;
+        max-width: 12em;
+        align-items: center;
+        text-align: center;
+        justify-self: center;
+    }
+    
+    #marvel img{
+        max-width: 12em;
+    }
+    
+}
+
