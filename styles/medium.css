@@ -17,6 +17,7 @@
     }
     header{
         border-radius: 10px 10px 0px 0px;
+        align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
         }

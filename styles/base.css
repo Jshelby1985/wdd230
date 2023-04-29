@@ -39,9 +39,9 @@ header, main, footer {
 header {
     border: 3px solid rgb(88, 99, 73);
     background-color: rgb(245, 168, 26);
-    align-items: center;
+    text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     
 }
 

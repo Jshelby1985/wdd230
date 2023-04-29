@@ -54,7 +54,7 @@
     }
     
     #marvel{
-        grid-column: 1;
+        grid-column:span 2;
         grid-row: 2;
     }
     
