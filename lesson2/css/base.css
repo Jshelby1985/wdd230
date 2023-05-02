@@ -19,6 +19,10 @@ h1 {
     font-size: 1.75rem;
     font-family: var(--h1-font);
 }
+#principles{
+    color: rgb(245, 168, 26);
+    text-align: center;
+}
 
 h2 {
     font-size: 1rem;
