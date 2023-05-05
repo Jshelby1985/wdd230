@@ -150,7 +150,7 @@ div #hero{
 }
 picture #hero{
     max-width: 100%;
-    opacity:3;
+    opacity: 0.6;;
 }
 div #events{
     grid-column: 1;
