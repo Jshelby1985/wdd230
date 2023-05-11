@@ -1,0 +1,102 @@
+@media only screen and (min-width: 32.5em) {
+    h1{ 
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    body{
+        line-height: 3;
+    }
+    header img {
+        box-shadow: 0 10px 30px rgb(53, 40, 37);
+        border-radius: 10px 10px 10px 10px;
+    }
+    header{
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        text-align: center;
+        }
+
+    footer{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        align-items: center;
+    }    
+
+    nav{
+        padding: auto;
+        margin: auto;
+    }
+
+    nav ul { 
+        display: flex; 
+    }
+    nav ul li { 
+        flex: 1 1 auto; 
+    } 
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav a:hover {
+        --d: 75%;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+    #hero{
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+    #hero img{
+        max-height: 200px;
+        float: left;
+    }
+    #events{
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+    #weather{
+        grid-column: 3;
+        grid-row: 5;
+    }
+    #join{
+        grid-column: 1/4;
+        grid-row: 4;
+    }
+    #news{
+        grid-column: 1 / 4;
+        grid-row: 2;
+    }
+    .spotlights{
+        grid-column: 1/4;
+        grid-row: 3;
+        grid-template-columns: 50% 50%;
+    }
+    #sp1{
+        width: 48%;
+        border: 4px solid gray;
+        margin-top: 15px;
+        margin-left: 10px;
+        
+    }
+    #sp2{
+        width: 48%;
+        border: 4px solid gray;
+        margin-top: 15px;
+        margin-right: 10px;
+        grid-column: 2;
+    }
+    #sp3{
+        display: none;
+    }
+
+    
+}
+
