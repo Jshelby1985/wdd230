@@ -166,12 +166,11 @@ nav ul li a {
 
 }
 #join{
-    display: none;
-    /* grid-row: 3;
+    grid-row: 3;
     border: 4px solid gray;
     margin: 5px;
     background-color: lightgray;
-    text-align: center; */
+    text-align: center;
     opacity: .8;
 
 
