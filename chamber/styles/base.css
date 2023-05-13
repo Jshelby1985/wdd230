@@ -109,11 +109,11 @@ ul {
 }
 
 a:link{
-    color: black;
+    color: white;
 }
 
 a:visited{
-    color:white;
+    color:yellow;
 }
 
 nav ul {
