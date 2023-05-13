@@ -72,7 +72,7 @@ header,nav, main, footer {
 header {
     border: 3px solid rgb(24, 22, 143);
     text-align: center;
-    display: gird;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
