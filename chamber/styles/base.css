@@ -7,15 +7,20 @@
 }
 
 body {
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 1.5;
     height: 100%;
     background-image: url("../images/perryville_backgroundOlive.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 1em;
 
 }
 
 .background{
-    opacity: .2;
+    opacity: .6;
     position: absolute;
     left: 0;
     top: 0;
@@ -25,18 +30,33 @@ body {
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 34px;
     padding: 0.25rem;
 
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 28px;
     text-shadow: 2px 2px 5px rgb(88, 99, 73);
     margin-bottom: .5rem;
     padding: 0.75rem;
 
 }
+
+h3 {
+    font-size: 24px;
+    padding: 1rem;
+    /*background-color: #bb0835;*/
+
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 20px;
+    padding: 1rem;
+    
+}
+
 main{
 grid-template-columns: 1fr ;
 grid-template-rows: 18% 18% 18% 18% 28%;
@@ -45,14 +65,16 @@ grid-template-rows: 18% 18% 18% 18% 28%;
 
 header,nav, main, footer {
     padding: 0.75rem;
-    max-width: auto;
+    max-width: inherit;
     margin: 0 auto;
 }
 
 header {
     border: 3px solid rgb(24, 22, 143);
     text-align: center;
-    display: flex;
+    display: gird;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 header img {
@@ -62,14 +84,17 @@ header img {
     align-items: center;
 }
 
+header #date{
+    grid-row: 3;
+}
+
 footer{
-    font-size: .8rem;
+    font-size: 20px;
     text-align: center;
     border: 3px solid rgb(24, 22, 143);
     padding: .5rem;
     display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 #lastUpdate {
@@ -108,27 +133,36 @@ nav ul li a {
 }
 
 #hero{
-
     grid-row: 1;
     border: 4px solid gray;
-    margin: 5px;
-    background-color: lightgray;
+    margin: 2%;
+    background-color: lightgray; 
+    opacity: .9;
     text-align: center;
 }
+
+#hero img{
+    max-width:50%;
+}
+
 #events{
     grid-row: 2;
     border: 4px solid gray;
-    margin: 5px;
+    margin: 2%;
     background-color: lightgray;
     text-align: center;
+    opacity: .8;
+
 
 }
 #weather{
     grid-row: 3;
     border: 4px solid gray;
-    margin: 5px;
+    margin: 2%;
     background-color: lightgray;
     text-align: center;
+    opacity: .8;
+
 
 }
 #join{
@@ -138,22 +172,28 @@ nav ul li a {
     margin: 5px;
     background-color: lightgray;
     text-align: center; */
+    opacity: .8;
+
 
 }
 #news{
     grid-row: 4;
     border: 4px solid gray;
-    margin: 5px;
+    margin: 2%;
     background-color: lightgray;
     text-align: center;
+    opacity: .8;
+
 
 }
 .spotlights{
     grid-row: 5;
     border: 4px solid gray;
-    margin: 5px;
+    margin: 2%;
     background-color: lightgray;
     text-align: center;
+    opacity: .8;
+
 
 }
 
