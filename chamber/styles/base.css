@@ -109,7 +109,7 @@ ul {
 }
 
 a:link{
-    color: white;
+    color: black;
 }
 
 a:visited{
@@ -130,6 +130,13 @@ nav ul li a {
     font-size: 0.95rem;
     border: 4px solid rgb(24, 22, 143);
     background-color: rgb(200, 40, 40);
+}
+
+nav div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 2rem;
 }
 
 #hero{
