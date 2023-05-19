@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --h2-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --h1-font: 'Crimson Pro', serif;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color:black;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-family: var(--h1-font);
+    
+}
+
+label{
+    font-size: 1.5rem;
+    color: rgb(85, 92, 192);
+}
+#dButton{
+    float: right;
+    margin-right: 1rem;
+}
+
+header, main, footer {
+    padding: 0.75rem;
+    max-width: 45rem;
+    margin: 0 auto;
+    background-color: gold;
+    text-align :center;
+
+}
+
+main{
+    max-height: 600px;
+    min-height: 300px;
+    padding:2rem ;
+}
+
+main #list{
+
+    border: 1px solid;
+    min-height: 20rem;
+    background-color:white;
+    text-align: left;
+}
+
+header {
+    border: 3px solid rgb(15, 5, 51);
+    background-color: rgb(85, 92, 192);
+    color: gold;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;  
+}
+
+footer{
+    color: gold;
+    font-size: .8rem;
+    text-align: center;
+    border: 3px solid rgb(15, 5, 51);
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    background-color: rgb(85, 92, 192);
+}
+
+#currentdate {
+	color: rgb(25, 4, 118);
+}
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+    border-top: 2px solid rgb(88, 99, 73);
+    border-bottom: 2px solid rgb(88, 99, 73);
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:rgb(245, 168, 26)
+}
