@@ -15,10 +15,23 @@
         border-radius: 10px 10px 10px 10px;
     }
     header{
-        border-radius: 10px 10px 0px 0px;
         display: flex;
         align-items: center;
-        }
+    }
+
+    .navigation{
+        display: flex;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a{
+        color: black;
+    }
 
     main{
         display: grid;
@@ -27,18 +40,24 @@
     }
 
     footer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }    
-
-    nav{
-        padding: 1rem;
-        margin: 1rem;
+        display: flex;
+    }   
+    
+    footer img{
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
-    nav a {
-        font-size: 1.1rem;
+    footer .year{
+        display: inline-block;
+        width: 50%;
     }
+    footer .lastUpdate{
+        display: inline-block;
+        width: 50%;
+    }
+    
     #hero{
         grid-column: 2 / 4;
         grid-row: 1 / 3;

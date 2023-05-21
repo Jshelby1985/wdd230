@@ -14,35 +14,21 @@
         border-radius: 10px 10px 10px 10px;
     }
     header{
-        border-radius: 10px 10px 0px 0px;
-        display: flex;
         text-align: center;
         }
 
+    nav div .media{
+        padding-top: 2rem;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     footer{
-        display: grid;
+        width: 100%;
+        display: inline-block;
         align-items: center;
     }    
-
-    nav{
-        padding: 1rem;
-        margin: 1rem;
-    }
-
-    nav ul { 
-        display: flex; 
-    }
-    nav ul li { 
-        flex: 1 1 auto; 
-    } 
-
-    nav a {
-        font-size: 1rem;
-    }
-
-    nav a:hover {
-        --d: 75%;
-    }
 
     main{
         display: grid;

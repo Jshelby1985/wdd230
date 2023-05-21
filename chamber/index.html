@@ -23,20 +23,29 @@
         <picture>
             <img src="images/logo.jpg" alt="PerryvilleARcc">
         </picture>
-        <h1>Perryville AR Chamber of Commerce</h1>
+        <h1 id="name">Perryville AR Chamber of Commerce</h1>
         <h2 id="date"> Todays Date: <span id="current"></span> </h2>
 
     </header>
-    <nav>
-        <ul>
+    <nav >
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html">Local Companies</a></li>
             <li><a href="index.html">More Events</a></li>
             <li><a href="index.html">Become A Member</a></li>
         </ul>
+        <div class="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div id="message1">
+            
+        </div>
         <div>
-            <i class="fa-brands fa-square-facebook fa-2xl"></i>
-            <i class="fa-brands fa-youtube fa-2xl" style="color: #ec1822;"></i>
+            <a class="media" href="https://facebook.com"><i class="fa-brands fa-square-facebook fa-2xl"></i> Check us out on Facebook</a>
+            <a class="media" href="https://youtube.com"><i class="fa-brands fa-youtube fa-2xl" style="color: #ec1822;"></i> Check out our YouTube Channel</a>
         </div>
     </nav>
     <main>
@@ -102,9 +111,18 @@
 
     </main>
     <footer> 
-        <p> &copy; <span id="year"></span> - Jeremy Shelby</p>
-        <p> Last Updated: <span id="lastUpdate"></span></p>
+        <div>
+            <img src="#" alt="PerryvilleARcc">
+        </div>
+        <div>
+            <p> &copy; <span id="year"></span> - Jeremy Shelby</p>
+        </div>
+        <div>
+            <p> Last Updated: <span id="lastUpdate"></span></p>
+        </div>
+
     </footer>
+    <script src ="scripts/rendered.js"></script>
     <script src ="scripts/time_stamp.js"></script>
     <script src="https://kit.fontawesome.com/be7978985f.js" crossorigin="anonymous"></script>
     <div class="background">
