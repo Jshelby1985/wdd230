@@ -26,9 +26,12 @@
 
     footer{
         width: 100%;
-        display: inline-block;
-        align-items: center;
     }    
+
+    footer div img {
+        box-shadow: 0 10px 30px rgb(53, 40, 37);
+        border-radius: 10px 10px 10px 10px;
+    }
 
     main{
         display: grid;

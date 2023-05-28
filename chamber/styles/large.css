@@ -1,6 +1,7 @@
 @media only screen and (min-width: 60em) {
     h1{ 
         font-size: 2rem;
+        line-height: 1.5rem;
     }
     h2{
         font-size: 1.5rem;
@@ -9,18 +10,48 @@
     body{
         line-height: 3;
     }
-    header img {
+    header{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 5fr 5fr 10fr 10fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+    header picture{
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+
+    header picture img {
         box-shadow: 0 10px 30px rgb(53, 40, 37);
-        /* float: left; */
         border-radius: 10px 10px 10px 10px;
     }
-    header{
-        display: flex;
-        align-items: center;
+
+    header #name{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    header #org{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    header nav ul li{
+        padding: 1rem;
+    }
+
+    #date {
+        border: 2px solid;
+        grid-column: 1/8;
+        grid-row: 2;
+        width: 100%;
+        justify-self: center;
     }
 
     .navigation{
         display: flex;
+        grid-column: 3;
+        grid-row: 1;
     }
     .navigation li:first-child{
         display: none;
@@ -39,23 +70,14 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
 
-    footer{
+    footer #address{
         display: flex;
+        flex-direction: row;
     }   
     
     footer img{
-        display: block;
         width: 100%;
         text-align: center;
-    }
-
-    footer .year{
-        display: inline-block;
-        width: 50%;
-    }
-    footer .lastUpdate{
-        display: inline-block;
-        width: 50%;
     }
     
     #hero{

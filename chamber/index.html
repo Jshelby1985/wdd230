@@ -23,31 +23,38 @@
         <picture>
             <img src="images/logo.jpg" alt="PerryvilleARcc">
         </picture>
-        <h1 id="name">Perryville AR Chamber of Commerce</h1>
-        <h2 id="date"> Todays Date: <span id="current"></span> </h2>
+        <h1 id="name">Perryville AR</h1> 
+        <h2 id="org">Chamber of Commerce</h2>
+            
+
+        <nav >
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Local</a></li>
+                <li><a href="index.html">Events</a></li>
+                <li><a href="index.html">Join</a></li>
+                <li><a href="index.html">Directory</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div id="message1">
+                
+            </div>
+        </nav> 
+            <div>
+                <a class="media" href="https://facebook.com"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+                <a class="media" href="https://youtube.com"><i class="fa-brands fa-linkedin fa-2xl" style="color: #1f61c3;"></i></a>
+            </div>
+
+        <div id="date">
+            <h2 > Todays Date: <span id="current"></span> </h2>
+        </div>
 
     </header>
-    <nav >
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Local Companies</a></li>
-            <li><a href="index.html">More Events</a></li>
-            <li><a href="index.html">Become A Member</a></li>
-        </ul>
-        <div class="hamburger-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <div id="message1">
-            
-        </div>
-        <div>
-            <a class="media" href="https://facebook.com"><i class="fa-brands fa-square-facebook fa-2xl"></i> Check us out on Facebook</a>
-            <a class="media" href="https://youtube.com"><i class="fa-brands fa-youtube fa-2xl" style="color: #ec1822;"></i> Check out our YouTube Channel</a>
-        </div>
-    </nav>
     <main>
         <div id="hero">
             <h1>Hero Name</h1>
@@ -111,14 +118,25 @@
 
     </main>
     <footer> 
-        <div>
-            <img src="#" alt="PerryvilleARcc">
+        <div id="address">
+            <img src="./images/logo.jpg" alt="PerryvilleARcc">
+            <p id="info">info@PerryvilleCC.org
+                <br>
+                (555) 555-5555
+            </p>
+
+            <p id="street">Perryville Chamber of Commerce 
+                <br>
+                106 Fourche Ave 
+                <br>
+                Perryville, AR 72126</p>
+            
+            <a id="mapImage" href="https://www.google.com/maps/place/Perry+County+Chamber-Commerce/@35.0048955,-92.8032865,
+            17z/data=!3m1!4b1!4m6!3m5!1s0x87cd129e5b10ce33:0x6013faa1f74b261a!8m2!3d35.0048955!4d-92.8007116!16s%2Fg%2F1tfd
+            7hwk?entry=ttu">GET DIRECTIONS</a>
         </div>
-        <div>
-            <p> &copy; <span id="year"></span> - Jeremy Shelby</p>
-        </div>
-        <div>
-            <p> Last Updated: <span id="lastUpdate"></span></p>
+        <div id="date">
+            <p> &copy; <span id="year"></span> - Perryville Chamber of Commerce | Jeremy Sheby | WDD230 Project | Last Updated: <span id="lastUpdate"></span></p>
         </div>
 
     </footer>
