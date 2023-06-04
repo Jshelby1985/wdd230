@@ -13,8 +13,9 @@ body {
     height: auto;
     background-image: url("../images/perryville_backgroundOlive.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position:.15rem 2rem;
+    background-size:contain;
+    background-size: 90%;
+    background-position:2rem 1rem;
     background-attachment: fixed;
     padding: 1em;
 
@@ -37,7 +38,7 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 1.5rem;
     text-shadow: 2px 2px 5px rgb(88, 99, 73);
     margin-bottom: .5rem;
     padding: 0.75rem;
@@ -76,14 +77,21 @@ header {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr .5fr;
+    grid-template-rows: 1fr .5fr .5fr;
 }
 
 header img {
-    width: 200px;
+    width:100%;
+    max-width: 200px;
     height: auto;
     margin-bottom: .5rem;
     align-items: center;
+    box-shadow: 0 10px 30px rgb(53, 40, 37);
+    border-radius: 10px 10px 10px 10px;
+
+}
+header #org{
+    height: min-content;
 }
 header #name{
     grid-row: 2;
@@ -91,6 +99,13 @@ header #name{
 
 header #date{
     grid-row: 3;
+    width: auto;
+    text-align: center;
+}
+header #banner{
+    line-height: 1.5;
+    width: fit-content;
+ 
 }
 nav div .media{
     padding:1rem;
@@ -139,7 +154,6 @@ ul {
 nav{
     margin: 0 auto;
     max-width: 760px;
-    background-color: darkgrey;
     padding: 1rem;
     opacity: .8;
     border-radius: 10px;

@@ -13,8 +13,8 @@
     header{
         width: 100%;
         display: grid;
-        grid-template-columns: 5fr 5fr 10fr 10fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 15fr 10fr 10fr;
+        grid-template-rows: 1fr .25fr .25fr;
 
     }
     header picture{
@@ -27,25 +27,23 @@
         border-radius: 10px 10px 10px 10px;
     }
 
-    header #name{
-        grid-column: 2;
-        grid-row: 1;
-    }
-
     header #org{
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 2;
     }
     header nav ul li{
         padding: 1rem;
     }
+    header #banner {
+        grid-column: 2/4;
+        grid-row: 2;
+        width: auto;
+    }
 
     #date {
         border: 2px solid;
         grid-column: 1/8;
-        grid-row: 2;
-        width: 100%;
-        justify-self: center;
+        grid-row: 3;
     }
 
     .navigation{
@@ -69,17 +67,22 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-
     footer #address{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: .75fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        height: min-content;
     }   
-    
-    footer img{
-        width: 100%;
+     footer #info {
+        grid-column: 2;
+     }
+     footer #street {
+        grid-column: 3;
+     }
+    footer div img{
+        margin-left: 5rem;
         text-align: center;
     }
-    
     #hero{
         grid-column: 2 / 4;
         grid-row: 1 / 3;

@@ -9,7 +9,9 @@
     body{
         line-height: 3;
     }
-    header img {
+    header picture img {
+        width: 200px;
+        height: auto;
         box-shadow: 0 10px 30px rgb(53, 40, 37);
         border-radius: 10px 10px 10px 10px;
     }
@@ -27,6 +29,13 @@
     footer{
         width: 100%;
     }    
+    footer #address{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr .5fr;
+        align-items: center;
+        justify-items: center;
+    }
 
     footer div img {
         box-shadow: 0 10px 30px rgb(53, 40, 37);
