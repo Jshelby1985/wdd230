@@ -22,6 +22,10 @@
         margin-bottom: 1rem;
     }
 
+    main div{
+        padding-left: 2rem;
+    }
+
     footer{
         display: block;
     }    
