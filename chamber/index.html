@@ -21,7 +21,7 @@
 <body>
     <header>
         <picture>
-            <img src="images/siteLogo.png" alt="PerryvilleARcc">
+            <img src="images/siteLogo.webp" alt="PerryvilleARcc">
         </picture>
          
         <h2 id="org">Chamber of Commerce</h2>
@@ -58,7 +58,9 @@
         <div id="hero">
             <h1>Hero Name</h1>
             <picture>
-                <img src="images/hero.jpg" alt="Hero Image">
+                <source media="(min-width:800px)" srcset="images/wdd230-800.jpg">
+                <source media="(min-width:400px)" srcset="images/wdd230-400.jpg">
+                <img src="images/wdd230-200.jpg" alt="Hero Image">
             </picture>
             <h2>Details of hero here</h2>
             
