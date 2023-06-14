@@ -17,6 +17,10 @@
         align-items: center;
         justify-items: center;
     }
+    header div #org{
+        font-size: 3rem;
+
+    }
     header{
         border-radius: 10px 10px 0px 0px;
         display: grid;
@@ -41,7 +45,6 @@
 
     }
     
-
     footer{
         display: block;
         align-items: center;
@@ -80,7 +83,11 @@
         grid-column: 2/6;
         
     }
-
+ 
+    /* About page css*/
+    main #about{
+        grid-column: 4/8;
+    }
     
 }
 

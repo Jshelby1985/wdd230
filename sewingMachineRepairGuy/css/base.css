@@ -55,17 +55,20 @@ header,nav, main, footer {
 }
 
 header {
+    display: grid;
     border: 3px solid #3C84AB;
     background-color: #362FD9;
     color: #DEFCF9;
     align-items: center;
-    display: grid;
+    justify-items: center;
 }
-
+header picture{
+    align-items: center;
+}
 header img {
     width: 130px;
     height: auto;
-    margin-bottom: .5rem;
+    margin: 2rem 0 2rem;
     align-items: center;
 }
 header #company{
@@ -75,7 +78,15 @@ header #company{
 }
 
 header div #org{
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+header #media{
+    display: flex;
+    margin: 2em 0 1em 0;
+}
+header .media{
+    background-color: #362FD9;
 }
 nav{
     margin: 0 auto;
