@@ -29,17 +29,7 @@
         display: block;
     }    
 
-    nav{
-        padding:1em;
-        margin: auto;
-    }
 
-    nav ul { 
-        display: flex; 
-    }
-    nav ul li { 
-        flex: 1 1 auto; 
-    } 
 
     nav a {
         font-size: 1rem;
@@ -50,7 +40,12 @@
         color: black; 
         --d: 75%;
     }
-    
+    .media{
+        padding-top: 2rem;
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+    }
     
 }
 

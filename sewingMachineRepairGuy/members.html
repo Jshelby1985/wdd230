@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sewing Machine Service/Repair Guy</title>
+    <meta name="description" content="Website for sewing machine repair company">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/logo.jpg" alt="SMSRG">
+        </picture>
+        <h2 id="org">Sewing Machine Service/Repair Guy Site Plan</h2>
+    </header>
+        <nav >
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="rates.html">Rates</a></li>
+                <li><a href="supplies.html">Supplies</a></li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="members.html">Sign Up</a></li>
+                <li><a href="questions.html">Questions</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+    
+
+            </ul>
+        </nav>     
+
+    <main>
+        <div id="members">
+            <p>Want to to keep up with current specials?
+            <br>
+            Signup to become part of our email list
+            <br>
+            and be the first to know about specials and
+            <br> 
+            product sales! </p>
+            <label for="email">Enter Valid Email Address</label>
+            <input type="text" id="email" placeholder="InTheLoop@email.com" value="">
+            <button type="submit" id="add">Submit</button>
+            <ul id="list"></ul>        
+        </div>
+    </main>
+    <footer>
+        <div id="dateStamp">
+            <p> &copy; <span id="year"></span> - Sewing Machine Service/Repair Guy Site Plan | Jeremy Shelby | WDD230 Project | Last Updated: <span id="lastUpdate"></span></p>
+        </div>
+    </footer>
+    <script src ="script/time_stamp.js"></script>
+
+</body>
+</html>

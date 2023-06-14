@@ -2,20 +2,43 @@
     body{
         line-height: 1.5;
     }
+
+    header picture {
+        align-items: center;
+        justify-items: center;
+    }
     header img {
         box-shadow: 0 10px 30px rgb(53, 40, 37);
-        /* float: left; */
         border-radius: 10px 10px 10px 10px;
+    }
+    header #company{
+        max-height: 150px;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
     }
     header{
         border-radius: 10px 10px 0px 0px;
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 4fr .5fr;
+    }
+    header div .media{
+        padding: 20px;
+        background-color: #362FD9;
+    }
+    
+
+    header #media{
+        display: flex;
+        margin-left: 150px; 
+        max-width: min-content;   
     }
     main{
         display: grid;
         margin-bottom: 1rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
     }
     
 
@@ -25,13 +48,39 @@
     }    
 
     nav{
+        display: block;
         padding:inherit;
         margin: auto;
+        float: left;
+        grid-column: 1;
     }
 
     nav a {
         font-size: 1.1rem;
+        width: 130px;
     }
+    .navigation{
+        display: block;
+        flex-direction: column;
+        
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li {
+        display: flex;
+        flex: 1 1 100%;
+        height: min-content;
+
+    }
+    .navigation li a{
+        color: black;
+    }
+    .slideshow-container{
+        grid-column: 2/6;
+        
+    }
+
     
 }
 
