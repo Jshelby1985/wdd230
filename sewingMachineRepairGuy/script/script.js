@@ -21,26 +21,56 @@ function createBanner(){
 
 //slideshow
 
+let slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+};
 
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+};
 
-
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
+function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1};
+  if (n < 1) {slideIndex = slides.length};
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  };
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1};    
+    slides[i].style.display = "none";
+  }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
-  };
-  slides[slideIndex-1].style.display = "block";  
+  }
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
 };
+
+
+//lazy loading
+
+let options = {
+  threshold: 0.8
+};
+
+const observer = new IntersectionObserver(imageObserver, options);
+
+function imageObserver(entries, observer){
+  entries.forEach(entry => {
+      if (entry.isIntersecting){
+          const img = entry.target;
+          const img_src = img.dataset.src;
+          img.src = img_src;
+      };
+  });
+};
+
+let images = document.querySelectorAll("img[data-src]");
+
+images.forEach((img) => {
+  observer.observe(img);
+});
