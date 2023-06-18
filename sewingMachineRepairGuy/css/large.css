@@ -1,8 +1,15 @@
 @media only screen and (min-width: 60em) {
     body{
         line-height: 1.5;
+        width: 100%;
+    }    
+    header{
+        border-radius: 10px 10px 0px 0px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 4fr .5fr;
+        width: 100%;
     }
-
     header picture {
         align-items: center;
         justify-items: center;
@@ -21,18 +28,10 @@
         font-size: 3rem;
 
     }
-    header{
-        border-radius: 10px 10px 0px 0px;
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 4fr .5fr;
-    }
     header div .media{
         padding: 20px;
         background-color: #362FD9;
     }
-    
-
     header #media{
         display: flex;
         margin-left: 150px; 
@@ -40,6 +39,7 @@
     }
     main{
         display: grid;
+        width: 100%;
         margin-bottom: 1rem;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 
@@ -48,11 +48,6 @@
         grid-column: 3/7;
     }
     
-    footer{
-        display: block;
-        align-items: center;
-    }    
-
     nav{
         display: block;
         padding:inherit;
@@ -60,7 +55,6 @@
         float: left;
         grid-column: 1;
     }
-
     nav a {
         font-size: 1.1rem;
         width: 130px;
@@ -93,7 +87,6 @@ img {vertical-align: middle;}
     position: relative;
     margin: auto;
   }
-  
   /* Caption text */
   .text {
     color: #f2f2f2;
@@ -104,7 +97,6 @@ img {vertical-align: middle;}
     width: 100%;
     text-align: center;
   }
-  
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
@@ -113,7 +105,6 @@ img {vertical-align: middle;}
     position: absolute;
     top: 0;
   }
-  
   /* The dots/bullets/indicators */
   .dot {
     height: 15px;
@@ -124,32 +115,30 @@ img {vertical-align: middle;}
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
   .active {
     background-color: #717171;
   }
-  
   /* Fading animation */
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
   }
-  
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
-  }
+  } 
+  footer{
+    display: block;
+    align-items: center;
+}   
     /* About page css*/
     #about{
         grid-column: 4/8;
     }
-
-
     /*rates*/
     #rates{
         display: block;
@@ -187,33 +176,38 @@ img {vertical-align: middle;}
     li #img5 p{
         grid-column: 2;
     }
-
-    #example2{
-        float: right;
-    }
     .examples{
         display: grid;
         justify-items: center;
+        max-width: 100%
+        ;
     
     }
     .examples li picture{
         display: grid;
         grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
         background-color: #DEFCF9;
+        align-items: center;
+        justify-items: center;
+        max-width: 100%;
     }
     li img{
         border-radius: 70px;
         margin: 1rem;
+        grid-row: 1;
 
     }
     li p{
-        margin: 3rem;
+        margin: 1rem;
+        grid-row: 1;
+        max-width: 80%;
+
     }
     li{
         list-style-type: none;
         width: 100%;
     }
-
     /* Specials*/
     main .special{
         display: block;
