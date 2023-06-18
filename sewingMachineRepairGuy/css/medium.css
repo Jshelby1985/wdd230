@@ -21,20 +21,12 @@
         margin-bottom: 1rem;
     }
 
-    main div{
-        padding-left: 2rem;
-    }
-
     footer{
         display: block;
     }    
-
-
-
     nav a {
         font-size: 1rem;
     }
-
     nav a:hover {
         background-color: #DEFCF9;
         color: black; 
@@ -45,6 +37,45 @@
         align-content: center;
         display: flex;
         flex-direction: row;
+    }
+
+    /*Table*/
+    table{
+        align-self: center;
+        width: 100%;
+    
+    }
+    .table{
+        background-color: black;
+        grid-column: 2/7;
+        margin-top: 5em;
+    }
+    thead {
+        font-size: 150%;
+        background-color: #362FD9;
+        color: white;
+    }
+    tbody{
+    }
+    th{
+        margin: 1em;
+        text-align: center;
+    }
+    td{
+        padding: .5em 1em .5em 1em;
+        border: none;
+    }
+    #price{
+        text-align: right;
+    }
+    #call{
+        text-align: center;
+    }
+    tbody tr:nth-child(odd) {
+        background-color: #DEFCF9;
+    }
+    tbody tr:nth-child(even) {
+        background-color: white;
     }
     
 }
