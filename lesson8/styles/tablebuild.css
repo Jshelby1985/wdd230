@@ -1,0 +1,31 @@
+
+main{
+    align-items: center;
+    justify-items: center;
+}
+table{
+    border-collapse: collapse;
+    border: solid 2px;
+}
+thead {
+    font-size: 150%;
+    background-color: #362FD9;
+    color: lightblue;
+}
+th{
+    margin: 2em;
+    padding: 0 10% ;
+    border: solid 2px ;
+}
+td{
+    padding: .5em 1em .5em 1em;
+}
+#price{
+    text-align: right;
+}
+tbody tr:nth-child(odd) {
+	background-color: lightblue;
+}
+tbody tr:nth-child(eben) {
+	background-color: white;
+}
