@@ -216,5 +216,12 @@ img {vertical-align: middle;}
         background-color: #DEFCF9;
     }
 
+
+    /* join*/
+    #join{
+        display: block;
+        grid-column: 2/7;
+
+    }
 }
 
