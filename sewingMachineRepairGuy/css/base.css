@@ -272,3 +272,14 @@ tbody tr:nth-child(even) {
     list-style-type: none;
     width: 100%;
 }
+
+#weather{
+    background-color: blue;
+    color: white;
+    width: max-content;
+    line-height: 1rem;
+    
+}
+#weather-icon{
+    background-color: white;
+}
