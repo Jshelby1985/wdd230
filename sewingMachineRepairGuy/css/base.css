@@ -42,11 +42,11 @@ body {
     padding: 1em;
 }
 
-main {
+/*main {
     width: 100%;
     text-align: center;
     margin-bottom: 1rem;
-}
+}*/
 
 header,nav, main, footer {
     padding: 0.75rem;
@@ -56,6 +56,7 @@ header,nav, main, footer {
 
 header {
     background-image: image-set("../images/IMG_3348.jpg");
+    background-position:center ;
 
     display: grid;
     border: 3px solid #3C84AB;
@@ -85,9 +86,7 @@ header #org{
 header #media{
     display: flex;
     margin: 2em 0 1em 0;
-}
-header .media{
-    background-color: #362FD9;
+
 }
 ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -119,10 +118,14 @@ nav{
 
 a:link{
     color: #362FD9;
+    
 }
 
 a:visited{
     color:#3C84AB;
+}
+a:hover{
+    box-shadow: 5px 10px 20px grey  ;
 }
 
 
@@ -147,6 +150,7 @@ a:visited{
     padding-left: 2rem;
     padding-right: 2rem;
     background-color: #85CDFD;
+    
 
 }
 .misc {
@@ -245,7 +249,7 @@ form label.top input, form label.top select{
 }
 form input.submitBtn {
     border: none;
-    background-color: red ;
+    background-color: #3C84AB ;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -278,7 +282,7 @@ tbody tr:nth-child(even) {
     color: white;
     width: max-content;
     line-height: 1rem;
-    
+
 }
 #weather-icon{
     background-color: white;

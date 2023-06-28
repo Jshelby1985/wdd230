@@ -13,8 +13,10 @@
     header picture {
         align-items: center;
         justify-items: center;
+        grid-column: 1/3;
     }
     header img {
+        width: 100%;
         box-shadow: 0 10px 30px rgb(53, 40, 37);
         border-radius: 10px 10px 10px 10px;
     }
@@ -30,38 +32,56 @@
         background-color: #DEFCF9;
 
     }
-    header div .media{
-        grid-column: 3;
-        background-color: #362FD9;
-    }
     header #media{
         display: flex;
-        max-width: 100%;   
+        padding: 5%;
+  
+    }
+
+    header div .media{
+        display: inline-block;
+        grid-column: 3;
+        background-color: white;
+        border-radius: 30%;
+
     }
     header #weather{
         grid-column: 3;
         grid-row: 1/3;
     }
-    main{
+    /*main{
         display: grid;
-
         grid-template-rows:3fr 1fr;
         width: 100%;
         height: fit-content;
         margin-bottom: 1rem;
         max-height: 800px;
         justify-items: center;
-    }
+    }*/
 
     main .slideshow-container{
-        grid-column: 2/7;
+        grid-row: 1;
         width: 800px;
         height: 600px;
+        border-radius: 30px;
+
+    }
+    .slideshow-img{
+        border-radius: 10%;
+    }
+    .home{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr 2fr;
+        justify-items: center;
+        align-items: center;
 
     }
     main .welcome{
         grid-row: 2;
+        max-width: 70%;
     }
+
 
     nav{
         display: flex;
@@ -84,24 +104,22 @@
         display: block;
         margin: 1rem;
         width: max-content;
-    
-
     }
     .navigation li a{
         color: black;
     }
-  footer{
-    display: block;
-    align-items: center;
-}   
+    footer{
+        display: block;
+        align-items: center;
+    }   
     /* About page css*/
     #about{
         grid-column: 4/8;
     }
     /*rates*/
-    #rates{
-        display: block;
-        grid-column: 2/8;
+    main.rates{
+        display: grid;
+        grid-template-rows: 6fr 1fr;
         justify-items: center;
         align-items: center;
     }
@@ -136,26 +154,21 @@
         grid-column: 2;
     }
     .examples{
-        display: grid;
         justify-items: center;
-        max-width: 100%
-        ;
     
     }
     .examples li picture{
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 1fr;
         background-color: #DEFCF9;
         align-items: center;
         justify-items: center;
-        max-width: 100%;
     }
     li img{
-        border-radius: 70px;
+        border-radius: 10%;
         margin: 1rem;
         grid-row: 1;
-
+        width: 80%;
     }
     li p{
         margin: 1rem;
@@ -168,11 +181,14 @@
         width: 100%;
     }
     /* Specials*/
-    main .special{
-        display: block;
-        width: 100%;
-        grid-column: 2/8;
+    main.special{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
         background-color: #DEFCF9;
+        text-align: left;
+        border-radius: 30px;
+        margin-bottom: 2em;
     }
 
 
@@ -180,6 +196,28 @@
     #join{
         display: block;
         grid-column: 2/7;
+
+    }
+    main.about{
+        text-align: left;
+        width: 70%;
+        background-color: #DEFCF9;
+        border-radius: 30px;
+        margin-bottom: 2em;
+
+    }
+    main.join{
+        width: 70%;
+        background-color: #DEFCF9;
+        border-radius: 30px;
+        margin-bottom: 2em;
+
+    }
+    main.questions{
+        width: 70%;
+        background-color: #DEFCF9;
+        border-radius: 30px;
+        margin-bottom: 2em;
 
     }
 }

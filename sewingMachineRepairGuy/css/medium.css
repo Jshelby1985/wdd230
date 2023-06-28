@@ -18,12 +18,11 @@
         grid-template-rows: 80% 20%;
         }
 
-    main{
+    /*main{
         display: grid;
         width: 100%;
         margin-bottom: 1rem;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-        }
+        }*/
 
     footer{
         display: block;
@@ -57,7 +56,6 @@
     }
     .table{
         background-color: black;
-        grid-column: 2/7;
         margin-top: 5em;
     }
     thead {
