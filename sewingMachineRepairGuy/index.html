@@ -15,7 +15,10 @@
 
     <header>
         <picture>
-            <img src="images/logo5.jpg" alt="SMSRG">
+            <source srcset="images/logo5.jpg" media="(min-width: 1040px)" > 
+            <source srcset="images/logo6.jpg" media="(min-width: 540px)" > 
+            <source srcset="images/logo7.jpg" media="(min-width: 350px)" > 
+            <img src="images/logo5.jpg" alt="Header Image">
         </picture>
         <div id="media"> 
             <div id="fb">
@@ -29,11 +32,11 @@
         <div id="weather">
             <h1>Local Weather</h1>
             <p>Moberly, MO</p>
-            <p><span id="current-temp"></span> &deg;F</p>
-            <figure>
-              <img src="x" alt="Weather Icon" id="weather-icon">
-              <figcaption></figcaption>
-            </figure>
+                <figure class="weather-icon">
+                    <p><span id="current-temp"></span> &deg;F</p>
+                    <img src="x" alt="Weather Icon" id="weather-icon"> 
+                    <figcaption></figcaption>
+                </figure>
             <p>Wind Speed: <span id="current-speed"></span>mph</p>
             <p>Wind Chill: <span id="chill"></span> &deg;</p>
 

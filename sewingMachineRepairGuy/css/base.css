@@ -58,10 +58,7 @@ header {
     background-image: image-set("../images/IMG_3348.jpg");
     background-position:center ;
 
-    display: grid;
     border: 3px solid #3C84AB;
-    align-items: center;
-    justify-items: center;
 }
 header picture{
     align-items: center;
