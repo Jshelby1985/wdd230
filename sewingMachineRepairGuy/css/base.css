@@ -287,3 +287,7 @@ tbody tr:nth-child(even) {
 #weather-icon{
     background-color: white;
 }
+
+section .brand{
+    background-color: #DEFCF9;
+}

@@ -51,9 +51,73 @@
             "name": "Red",
             "price": "$1.64",
             "type": "Dual Duty All Purpose Thread 400yds",
+            "url": "https://www.joann.com/coats-andamp-clark-dual-duty-thread/19319425.html",
+
             "picture": "images/red.jpg"
 
+        },
+        {
+            "brand": "Gutermann",
+            "name": "020 Nu White",
+            "price": "$1.24",
+            "type": "Gutermann Sew All Polyester Thread 110 Yards",
+            "url": "https://www.joann.com/gutermann-sew-all-polyester-thread-110-yards-greens/prd1115.html",
+
+            "picture": "images/020 Nu White.jpg"
+
+        },
+        {
+            "brand": "Gutermann",
+            "name": "030 Bone",
+            "price": "$1.24",
+            "type": "Gutermann Sew All Polyester Thread 110 Yards",
+            "url": "https://www.joann.com/gutermann-sew-all-polyester-thread-110-yards-greens/2275097.html",
+
+            "picture": "images/030 Bone.jpg"
+
+        },
+        {
+            "brand": "Gutermann",
+            "name": "506 Sand",
+            "price": "$1.24",
+            "type": "Gutermann Sew All Polyester Thread 110 Yards",
+            "url": "https://www.joann.com/gutermann-sew-all-polyester-thread-110-yards-greens/2276160.html",
+
+            "picture": "images/506 Sand.jpg"
+
+        },
+        {
+            "brand": "Gutermann",
+            "name": "510 Taupe",
+            "price": "$1.24",
+            "type": "Gutermann Sew All Polyester Thread 110 Yards",
+            "url": "https://www.joann.com/gutermann-sew-all-polyester-thread-110-yards-greens/2276202.html",
+
+            "picture": "images/510 Taupe.jpg"
+
+        },
+        {
+            "brand": "Gutermann",
+            "name": "513 Light Beige",
+            "price": "$1.24",
+            "type": "Gutermann Sew All Polyester Thread 110 Yards",
+            "url": "https://www.joann.com/gutermann-sew-all-polyester-thread-110-yards-greens/2276236.html",
+
+            "picture": "images/513 Light Beige.jpg"
+
+        },
+        {
+            "brand": "Gutermann",
+            "name": "522 Cornsilk",
+            "price": "$1.24",
+            "type": "Gutermann Sew All Polyester Thread 110 Yards",
+            "url": "https://www.joann.com/gutermann-sew-all-polyester-thread-110-yards-greens/2276269.html",
+
+            "picture": "images/522 Cornsilk.jpg"
+
         }
+
+
 
     ]
 
