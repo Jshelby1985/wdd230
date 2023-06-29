@@ -220,5 +220,15 @@
         margin-bottom: 2em;
 
     }
+
+    main .cards{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin: 8%;
+        width: 80%;
+    }
+    main .cards section img{
+        width: 100%;
+    }
 }
 

@@ -1,0 +1,60 @@
+{
+    "products":[
+        {
+            "brand": "Coats & Clark",
+            "name": "0001 White",
+            "price": "$1.64",
+            "type": "Dual Duty All Purpose Thread 400yds",
+            "url": "https://www.joann.com/coats-andamp-clark-dual-duty-thread/prd13364.html",
+            "picture": "images/0001White.jpg"
+
+        },
+        {
+            "brand": "Coats & Clark",
+            "name": "Natural",
+            "price": "$1.64",
+            "type": "Dual Duty All Purpose Thread 400yds",
+            "url": "https://www.joann.com/double-duty-thread-natural-400yd/11669496.html",
+            "picture": "images/natural.jpg"
+
+        },
+        {
+            "brand": "Coats & Clark",
+            "name": "Navy",
+            "price": "$1.64",
+            "type": "Dual Duty All Purpose Thread 400yds",
+            "url": "https://www.joann.com/double-duty-thread-navy-400-yd/11669504.html",
+            "picture": "images/navy.jpg"
+
+        },
+        {
+            "brand": "Coats & Clark",
+            "name": "0002 Black",
+            "price": "$1.64",
+            "type": "Dual Duty All Purpose Thread 400yds",
+            "url": "https://www.joann.com/coats-andamp-clark-dual-duty-thread/1036680.html",
+            "picture": "images/0002Black.jpg"
+
+        },
+        {
+            "brand": "Coats & Clark",
+            "name": "Nugrey",
+            "price": "$1.64",
+            "type": "Dual Duty All Purpose Thread 400yds",
+            "url": "https://www.joann.com/coats-andamp-clark-dual-duty-thread/15741374.html",
+
+            "picture": "images/nugrey.jpg"
+
+        },
+        {
+            "brand": "Coats & Clark",
+            "name": "Red",
+            "price": "$1.64",
+            "type": "Dual Duty All Purpose Thread 400yds",
+            "picture": "images/red.jpg"
+
+        }
+
+    ]
+
+}
