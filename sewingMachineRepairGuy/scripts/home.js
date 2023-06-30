@@ -1,7 +1,7 @@
 //slideshow
 const slideshowImages = document.querySelectorAll(".slideshow-container .slideshow-img");
 
-const nextImageDelay = 3000;
+const nextImageDelay = 2500;
 
 let currentImageCounter = 0;
 
