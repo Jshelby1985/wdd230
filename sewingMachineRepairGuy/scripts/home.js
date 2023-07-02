@@ -24,6 +24,7 @@ const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.querySelector('#current-speed');
 const WindChill = document.querySelector('#chill');
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Moberly&units=imperial&APPID=b840405b3f4959aafe6b1fb2a87611a3"
+//const url = "https://api.weatherstack.com/current?access_key=483cbd06dd1e5bd9bd14653c21477d58&query=usa.Moberly&units=f";
 
 
 async function apiFetch() {

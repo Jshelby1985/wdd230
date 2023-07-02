@@ -70,21 +70,15 @@ header img {
     margin: 2rem 0 2rem;
     align-items: center;
 }
-header #company{
-    max-width: max-content;
-    max-height: max-content;
-    
-}
-
-header #org{
-    font-size: 2rem;
-    background-color: #DEFCF9;
-}
 
 header #media{
     display: flex;
     margin: 2em 0 1em 0;
+    justify-content: center;
 
+}
+header .media{
+    background-color: white;
 }
 ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -111,7 +105,9 @@ nav{
     display: none;
 }
 .responsive li{
-    display: block;
+    display: inline-block;
+    flex-direction: row;
+    margin: 10px;
 }
 
 a:link{
@@ -282,7 +278,146 @@ tbody tr:nth-child(even) {
 #weather-icon{
     background-color: white;
 }
+main.special{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    background-color: #DEFCF9;
+    text-align: left;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+
 
 section .brand{
     background-color: #DEFCF9;
 }
+
+#city{
+    display: none;
+}
+#wind{
+    display: none;
+
+}
+#chill{
+    display: none;
+
+}
+main.about{
+    text-align: left;
+    width: 70%;
+    background-color: #DEFCF9;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+
+main.about #about{
+    text-align: center;
+}
+main.about #about img{
+    width: 80%;
+}
+main.rates{
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+li #img1 img{
+    grid-column: 1;
+}
+li #img2 img{
+    grid-column: 2;
+}
+li #img3 img{
+    grid-column: 1;
+}
+li #img4 img{
+    grid-column: 2;
+}
+li #img1 img{
+    grid-column: 1;
+}
+li #img1 p{
+    grid-column: 2;
+}
+li #img2 p{
+    grid-column: 1;
+}
+li #img3 p{
+    grid-column: 2;
+}
+li #img4 p{
+    grid-column: 1;
+}
+li #img5 p{
+    grid-column: 2;
+}
+.examples{
+    justify-items: center;
+
+}
+.examples li picture{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #DEFCF9;
+    align-items: center;
+    justify-items: center;
+}
+li img{
+    border-radius: 10%;
+    margin: 1rem;
+    grid-row: 1;
+    width: 100%;
+}
+li p{
+    margin: 1rem;
+    grid-row: 1;
+    max-width: 100%;
+
+}
+li{
+    list-style-type: none;
+    width: 100%;
+}
+    /* Supplies */
+
+    main.supplies{
+        display: grid;
+        justify-items: center;
+    }
+
+    main .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+    }
+
+    main section{
+        display: grid;
+        border: solid 2px #3C84AB;
+        margin: 2%;
+        align-content: center;
+        
+    }
+    main .cards section img{
+        width: 100%;
+    }
+    main section .buy{
+
+        text-align: center;
+        width: 50%;
+        margin: 10px;
+        background-color:yellow;
+        border: solid 3px #85CDFD;
+        border-radius: 15px;
+    }
+    main section .price{
+        background-color: rgb(49, 185, 49);
+        display: block;
+        width: 60%;
+        height: min-content;
+        border-radius: 10px;
+        margin: 0 10px;
+    }

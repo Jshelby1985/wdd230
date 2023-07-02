@@ -32,22 +32,23 @@ const displayProducts = (products) => {
     name.setAttribute('class', 'name');
     price.textContent = `Price: ${product.price}`;
     price.setAttribute('class', 'price');
+    buy.textContent = `Buy HERE`;
+    buy.setAttribute ('href', product.url);
+    buy.setAttribute('class', 'buy');
+    pic.setAttribute('class', 'productImg')
     pic.setAttribute('src', product.picture);
     pic.setAttribute('alt','Product Image');
     type.textContent = `Thread Type: ${product.type}`;
     type.setAttribute('class', 'type');
-    buy.textContent = `Where to buy`;
-    buy.setAttribute ('href', product.url);
-    buy.setAttribute('class', 'buy');
 
 
 
     card.appendChild(h2);
     card.appendChild(name);
+    card.appendChild(buy);
     card.appendChild(price);
     card.appendChild(pic);
     card.appendChild(type);
-    card.appendChild(buy);
     cards.appendChild(card);
   });
 }

@@ -13,7 +13,7 @@
 </head>
 <body>        
 
-    <header>
+    <header class="homeHeader">
         <picture>
             <source srcset="images/logo5.jpg" media="(min-width: 1040px)" > 
             <source srcset="images/logo6.jpg" media="(min-width: 540px)" > 
@@ -31,22 +31,22 @@
 
         <div id="weather">
             <h1>Local Weather</h1>
-            <p>Moberly, MO</p>
+            <p id="city">Moberly, MO</p>
+            <p><span id="current-temp"></span> &deg;F</p>
+
                 <figure class="weather-icon">
-                    <p><span id="current-temp"></span> &deg;F</p>
                     <img src="images/" alt="Weather Icon" id="weather-icon"> 
-                    <figcaption></figcaption>
                 </figure>
-            <p>Wind Speed: <span id="current-speed"></span>mph</p>
-            <p>Wind Chill: <span id="chill"></span> &deg;</p>
+                <figcaption></figcaption>
 
+            <p id="wind">Wind Speed: <span id="current-speed"></span> mph</p>
+            <p id="chill">Wind Chill: <span id="chill"></span> &deg;</p>
         </div>
-       <div>
-
-       </div>
+            <p><span id="time"></span></p>
 
     </header>
     <nav >
+        
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
@@ -55,7 +55,7 @@
             <li><a href="supplies.html">Supplies</a></li> 
             <li><a href="about.html">About Us</a></li>
             <li><a href="join.html">Sign Up</a></li>
-            <li><a href="questions.html">Questions</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
             <li><a href="reviews.html">Reviews</a></li>
         </ul>
     </nav>  
@@ -77,7 +77,7 @@
         </div>
         <div class="welcome">
             <p>Thank you for visiting KeepingYouInStitches.com where you can find all your sewing supplies and services.
-            Check out our Specials page for current service and product deals, and sign up to be part of out Email list
+            Check out our <a class="specialsLink" href="specials.html">Specials page</a>  for current service and product deals, and <a class="joinLink" href="join.html">sign up</a>  to be part of our Email list
             so you never miss the next deal. We look forward to becoming part of your sewing or quilting family, and 
             Keeping You In Stitches!
             </p>

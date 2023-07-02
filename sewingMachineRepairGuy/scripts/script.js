@@ -1,9 +1,11 @@
 const date = new Date();
 const year = date.getFullYear();
 const stringDate = date.toLocaleDateString();
+const time = date.toLocalTimeString();
 document.getElementById("lastUpdate").textContent = document.lastModified;
 document.getElementById("year").textContent = year;
-//document.getElementById("current").textContent = stringDate;
+document.getElementById("time").textContent = time;
+document.getElementById("current").textContent = stringDate;
 
 
 

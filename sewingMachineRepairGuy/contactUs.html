@@ -32,35 +32,30 @@
                 <li><a href="join.html">Sign Up</a></li>
                 <li><a href="contactUs.html">Contact Us</a></li>
                 <li><a href="reviews.html">Reviews</a></li>
+    
             </ul>
         </nav>     
 
-    <main class="join">
-
-        <div>
-            
-            <h1>Sign up for email notifications</h1>
-
-            <p>Want to to keep up with current specials?
-                <br>
-                Signup to become part of our email list
-                <br>
-                and be the first to know about specials and
-                <br> 
-                product sales! </p>
-
+    <main class="contact">
+        <div id="contactInfo">
+            <img id="contactImg" src="images/contactImg.jpg" alt="contactImg">
+            <p>Feel free to contact me via Phone or Email, Or you can submit your question below and I will respond through your preferred method.</p>
+            <p>Phone: (573) 355-6011</p>
+            <p>Email: pcphd@hotmail.com</p>
+        </div>
+        <div class="form">
             <form method="get" action="thanks.html">
                 <fieldset>
-                    <legend>Sign up Information</legend>
+                    <legend>How can we reach you?</legend>
                     <label class="top">First Name*<input type="text" name="fname" required></label>
                     <label class="top">Last Name*<input type="text" name="lname" required></label>
                     <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com"></label>
-    
+                    <textarea class="text" name="comment" id="comment" cols="30" rows="10" placeholder="Comment/Question"></textarea>
                 </fieldset>
-                <input type="submit" value="Add Me To The List" class="submitBtn">
-
+                <input type="submit" value="Send My Question" class="submitBtn">
             </form>
+
         </div>
     </main>
     <footer>
@@ -70,5 +65,6 @@
     </footer>
     <script src ="scripts/script.js"></script>
     <script src ="scripts/rendered.js"></script>
+
 </body>
 </html>

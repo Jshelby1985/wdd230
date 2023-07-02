@@ -1,41 +1,25 @@
 @media only screen and (min-width: 1040px) {
-    body{
-        line-height: 1.5;
-        width: 100%;
-    }    
     header{
-        border-radius: 10px 10px 0px 0px;
         display: grid;
         align-items: center;
         grid-template-columns: 10% 70% 20%;
-        width: 100%;
+        grid-template-rows: 1fr 1fr;
     }
     header picture {
         align-items: center;
         justify-items: center;
         grid-column: 1/3;
+
     }
-    header img {
+    header picture img {
         width: 100%;
         box-shadow: 0 10px 30px rgb(53, 40, 37);
         border-radius: 10px 10px 10px 10px;
     }
-    header #company{
-        grid-column: 2;
-        max-height: 150px;
-        width: 100%;
-        align-items: center;
-        justify-items: center;
-    }
-    header div #org{
-        font-size: 3rem;
-        background-color: #DEFCF9;
-
-    }
     header #media{
         display: flex;
-        padding: 5%;
-  
+        padding: 5%;  
+        justify-content: center;
     }
 
     header div .media{
@@ -46,9 +30,14 @@
 
     }
     header #weather{
-        grid-column: 3;
-        grid-row: 1/3;
-        
+        display: flex;
+        grid-column: 1/3;
+        grid-row: 2;
+        align-items: center; 
+    }
+
+    header #weather .weather-icon{
+        width: 20%;
     }
     /*main{
         display: grid;
@@ -182,15 +171,6 @@
         width: 100%;
     }
     /* Specials*/
-    main.special{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 70%;
-        background-color: #DEFCF9;
-        text-align: left;
-        border-radius: 30px;
-        margin-bottom: 2em;
-    }
 
 
     /* join*/
@@ -199,13 +179,8 @@
         grid-column: 2/7;
 
     }
-    main.about{
-        text-align: left;
-        width: 70%;
-        background-color: #DEFCF9;
-        border-radius: 30px;
-        margin-bottom: 2em;
-
+    main.about #about{
+        text-align: center;
     }
     main.join{
         width: 70%;
@@ -214,50 +189,33 @@
         margin-bottom: 2em;
 
     }
-    main.questions{
+    main.contact{
         width: 70%;
         background-color: #DEFCF9;
         border-radius: 30px;
         margin-bottom: 2em;
-
     }
+    main.contact #contactInfo{
+        display:block;
+        width: 50%;
+    }
+    main.contact fieldset{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main.contact fieldset .top{
+        grid-column: 1;
+    }
+     main.contact fieldset .text{
+        grid-column: 2;
+    }
+
 
 
     /* Supplies */
-
-    main.supplies{
-        display: grid;
-        justify-items: center;
-    }
-
     main .cards{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         width: 80%;
     }
-
-    main section{
-        display: grid;
-        border: solid 2px #3C84AB;
-        margin: 2%;
-        align-content: center;
-        
-    }
-    main .cards section img{
-        width: 100%;
-    }
-    main section .buy{
-        align-items: center;
-        margin: 25%;
-        width: 50%;
-    }
-    main section .price{
-        background-color: rgb(49, 185, 49);
-        display: block;
-        width: 60%;
-        height: min-content;
-        border-radius: 10px;
-        margin: 0 10px;
-    }
 }
-
