@@ -1,0 +1,74 @@
+Bountiful Foods
+Carlsbad, California
+    (physical location & food Trucks)
+    (costal area LA- San Diego)
+fruits and produce  farmers in the area
+some national and international suppliers
+"Owner Operated"
+Walk-in traffic
+Deliver
+Phone/Website
+
+
+The theme should support healthy eating, organic bounty, and convenience
+
+
+CONTENT
+
+1)📄 The Home page is a contemporary, exciting landing page providing images of fruit and produce including specialty fruit drinks
+     that are ready to serve and made fresh. The page must contain the following.
+
+    1) Readily available navigation and business contact information.
+    2) Summary information about any coastal area or areas in the southern California coast of your choosing.
+    3) A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
+    4) Social media links (at least three) (no account necessary).
+    5) The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily)
+       and include:
+        1) the current temperature,
+        2) the condition description,
+        3) the humidity, and
+        4) a three(3) day temperature forecast.
+    6) Include an information card about the total number of specialty drinks that the current user has submitted from the Fresh page form. 
+       This information should just be stored locally, with the user's agent (in their browser).
+
+2)📄 The Fresh page contains a form that allows the user to build their own specialty drink.
+    1) The form requires the following items from the user:
+        1) first name,
+        2) email,
+        3) phone number,
+        4) three (3) select element inputs that are populated with the available fruit to put into a drink.
+            ~ Populate all three select elements with all of the available fruits.
+            ~ Available fruit options must only come from this JSON data source for full credit consideration: Fruit DataLinks to an 
+              external site.
+        5) and, include an area that allows them to add special instructions, if needed.
+
+    2) Do NOT send the form to a new page upon form submission. Instead, use a JavaScript event handler to produce a formatted output
+    area on this same page showing:
+        1) the input values of the order (7 inputs = first name, email, phone, three selected fruits, and special instructions),
+        2) the order date, and
+        3) the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three fruit choices selected on the form.
+           The data source provides that information per fruit.
+
+3) 📄 The About Us page provides historical information about the company and area plus contact information, and a Google Map and other
+      relevant content.
+4) If necessary, include a resource/attribution page that references outside content as a link in the footer.
+    ~This supplement page does not need to be styled.
+5) Include the last modified date of the page in the footer using JavaScript.
+
+
+
+SPECIFICATIONS
+
+1) Meet the specifications listed in the 230 Development Standards checklist.
+2) Use a lazy loading technique to support progressive design.
+3) The design is consistent throughout the website providing ease of navigation and supports excellent UX (user experiences).
+4) Your page layouts may not be an exact replication of your prior assignment pages or sites.
+    ~ Plan to demonstrate your mastery of CSS Layouts by doing something different.
+5) Follow PARC principles and typography best-practices throughout the website.
+6) Implement an appropriate font of your choice, using a Google FontsLinks to an external site. reference or equivalent resource.
+7) Use the practice of wayfinding to improve the user experience of understanding where a user is on the website.
+8) Ensure that there are no spelling or grammatical errors.
+9) Publish the complete, working site to your GitHub Pages site.
+10) Do NOT publish a link from your assignment home page portal.
+    ~ Submit the absolute URL to your project folder, whatever you named it.
+11) Complete the project on time.

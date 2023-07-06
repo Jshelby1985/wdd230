@@ -1,7 +1,7 @@
 const date = new Date();
 const year = date.getFullYear();
 const stringDate = date.toLocaleDateString();
-const time = date.toLocalTimeString();
+const time = ate.toLocalTimeString();
 document.getElementById("lastUpdate").textContent = document.lastModified;
 document.getElementById("year").textContent = year;
 document.getElementById("time").textContent = time;

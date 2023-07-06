@@ -1,0 +1,71 @@
+h1, h2, h3{
+    font-family: 'Indie Flower', cursive;
+    /*border: solid 1px black;*/
+}
+h1{
+    Font-size: 34px
+}
+h2{
+    Font-size: 28px
+}
+h3{
+    Font-size: 24px
+}
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+    Font-size: 24px;
+    /*border: solid 1px black;*/
+
+}
+header{
+    /*border: solid 1px black;*/
+    display: grid;
+    grid-template-columns: .5fr 1fr 3.5fr;
+    background-color: #DEC3BE;
+    height: 150px;
+    border: solid #DD7E93 5px;
+
+
+}
+.navigation li{
+    /*border: solid 1px black;*/
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem;
+    display: inline-block;
+    margin: 1rem;
+}
+li a{
+    color: #7EA089;
+    text-shadow: black 2px 2px 2px;
+    text-decoration-line: none;
+    border: solid #DD7E93 2px;
+    padding: 10px;
+
+
+}
+main{
+    /*border: solid 1px black;*/
+    padding: 5rem;
+
+}
+.colors .nav-bar{
+    background-color: #DEC3BE;
+}
+.colors .border{
+    background-color: #DD7E93;
+}
+.colors .background{
+    background-color: white;
+}
+.colors .link{
+    background-color: #7EA089;
+}
+.colors .misc{
+    background-color:  #D5A18E;
+}
+
+footer{
+    background-color: #DEC3BE;
+    border: solid #DD7E93 5px ;
+    margin: 15px;
+}
