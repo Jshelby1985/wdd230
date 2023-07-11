@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1040px) {
+
+.navigation{
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+
+}
+.navigation li:first-child{
+    display: none;
+}
+.navigation li {
+    display: block;
+    margin: 1rem;
+    width: max-content;
+}
+.navigation li a{
+    color: black;
+}
+}

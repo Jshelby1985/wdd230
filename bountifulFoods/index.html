@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bountiful Foods</title>
+        <meta name="description" content="Website for the sale of fresh fruits and produce">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Indie+Flower&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+
+    </head>
+    <body>
+        <header>
+            <picture>
+               <img src="images/logo.jpg" alt="BountifulFoodsLogo">
+            </picture>
+            <nav class="nav-bar">
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="hamburger-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+    
+            </nav>  
+
+            <div class="media">
+                <div id="fb">
+                    <a class="media" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook fa-2xl" style="color: blue;" ></i></a>
+                </div>
+                <div id="yt">
+                    <a class="media" href="https://www.youtube.com"><i class="fa-brands fa-youtube fa-2xl" style="color: red;"></i></a>
+                </div>
+            </div> 
+        </header>
+      
+    <main>
+
+        <div id="areaDetails">
+            <picture>
+                <img src="images/market-small.jpg" alt="fruit-market">
+                <div id="details">
+                    <p>California is home to many of the best organic fruits
+                        and vegetables in the country. We have partnered with 
+                        local growers to ensure only the best quality organic
+                        products reach your mouth!
+                    </p>
+                </div>
+            </picture>
+        </div>
+        <div class="counter">
+            <p>You have already made <span id="count"></span> drinks! How about one more?</p>
+
+        </div>
+        <div class="slideshow">
+            <img src="images/allGreen.jpg" class="slideshow-img" alt="slideshow img1">
+            <img src="images/OBC.jpg" class="slideshow-img" alt="slideshow img2">
+            <img src="images/OPL.jpg" class="slideshow-img" alt="slideshow img3">
+            <img src="images/SRP.jpg" class="slideshow-img" alt="slideshow img4">
+            <img src="images/TPA.jpg" class="slideshow-img" alt="slideshow img5">
+        </div>
+        <div class="freshLink">
+            <a href="fresh.html">Make Your Own!!!</a>
+        </div>
+        <div class="weather">
+            <p>Weather api</p>
+        </div>
+    </main>
+    <footer>
+        <div id="dateStamp">
+            <p> &copy; <span id="year"></span> - Bountiful Foods Site Plan | Jeremy Shelby | WDD230 Project | Last Updated: <span id="lastUpdate"></span></p>
+        </div>
+    </footer>
+    <script src ="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/be7978985f.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
