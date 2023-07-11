@@ -18,7 +18,7 @@ function toggleMenu(){
 
 //Slideshow//
 const slideshowImages = document.querySelectorAll(".slideshow .slideshow-img");
-const nextImageDelay = 2500;
+const nextImageDelay = 3500;
 let currentImageCounter = 0;
 
 slideshowImages[currentImageCounter].style.display = "block";

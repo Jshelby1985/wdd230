@@ -145,13 +145,13 @@ main{
     display: grid;
     grid-row: 2;
     justify-items: center;
-    align-items: center;
-    grid-template-rows: 2fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 3fr 1fr 1fr;
 
 }
 main #areaDetails{
     border: solid 1px;
     width: 90%;
+    margin: auto;
 }
 #areaDetails picture img{
     width: 100%;
@@ -170,16 +170,22 @@ main .counter{
 .slideshow{
     width: 90%;
     height: fit-content;
-    position: relative;
+    position:relative;
+    
 }
 .slideshow-img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    height: max-content;
     display: block;
+}
+.freshLink{
+    text-align: center;
+    width: 100%;
+    background-color: #D5A18E;
+    border-radius: 15px;
 }
 
 
