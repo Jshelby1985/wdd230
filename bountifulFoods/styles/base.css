@@ -168,9 +168,11 @@ main .counter{
     border-radius: 10px;
 }
 .slideshow{
+    display: flex;
     width: 90%;
     height: fit-content;
     position:relative;
+    align-content: center;
     
 }
 .slideshow-img {
@@ -178,12 +180,13 @@ main .counter{
     top: 0;
     left: 0;
     max-width: 100%;
-    height: max-content;
+    height: 280px;
     display: block;
 }
 .freshLink{
     text-align: center;
-    width: 100%;
+    width: 80%;
+    height: min-content;
     background-color: #D5A18E;
     border-radius: 15px;
 }
