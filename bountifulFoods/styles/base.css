@@ -20,7 +20,6 @@ h3{
 p{
     font-family: 'Alegreya Sans', sans-serif;
     Font-size: 24px;
-
 }
 .colors, .nav-bar{
     background-color: #7EA089;
@@ -37,10 +36,6 @@ p{
 .colors, .misc{
     background-color:  #D5A18E;
 }
-body{
-    display: grid;
-    grid-template-rows: 1fr 5fr .75fr;
-}
 
 
 
@@ -49,7 +44,6 @@ body{
 header{
     /*border: solid 1px black;*/
     display: grid;
-    grid-row: 1;
     grid-template-columns: 1fr .75fr;
     grid-template-rows: 1fr .5fr;
     background-color: #7EA089;
@@ -63,11 +57,9 @@ header{
 header picture{
     grid-column: 1;
     grid-row:1/3;
-
 }
 header picture img{
     height: 140px;
-
 }
 nav{
     opacity: .9;
@@ -88,17 +80,12 @@ nav{
 }
 .navigation li:first-child{
     display: block;
-    font-size: xx-large;
+    font-size: 3rem;
 }
-
 .navigation li{
     display: none;
     font-family: 'Tangerine', cursive;
-    font-size: 2rem;
-    /*border: solid 1px black;
-    
-    display: inline-block;
-    margin: 1rem;*/
+    font-size: 3rem;
 }
 .responsive{
     background-color: #7EA089;
@@ -110,21 +97,14 @@ nav{
     display: block;
     flex-direction: row;
     margin: 10px;
-
 }
-
 li a{
-    color: #D5A18E;
-    text-shadow: black 2px 2px 2px;
     text-decoration-line: none;
-transition: all 0.4s;
-    /*border: solid #DD7E93 2px;*/
+    color: black;
+    font-size: 2rem;
 }
 a:hover{
     text-decoration-line:underline;
-    transform: scale(1.3);
-
-
 }
 .hamburger-menu{
     background-color: #7EA089;
@@ -136,7 +116,7 @@ div.media{
 }
 div.media div{
     margin: 20px;
-
+    height: 5px;
 }
 
 
@@ -146,12 +126,10 @@ div.media div{
 main{
     /*border: solid 1px black;*/
     display:grid;
-    grid-row: 2;
-    justify-items: center;
-    grid-template-rows: 1fr 1fr 3fr .5fr 1fr;
-
-}
+    grid-template-rows: 1fr 1fr 1fr .5fr 1fr;
+    justify-items: center;}
 main #areaDetails{
+    grid-row: 1;
     border: solid 1px;
     width: 90%;
     margin: auto;
@@ -163,6 +141,7 @@ picture #details{
     display: none;
 }
 main .counter{
+    grid-row: 2;
     width: 80%;
     height: fit-content;
     font-size: 18px;
@@ -173,6 +152,7 @@ main .counter{
 }
 .slideshow{
     display: flex;
+    grid-row: 3;
     width: 90%;
     height: fit-content;
     position:relative;
@@ -188,17 +168,21 @@ main .counter{
     display: block;
 }
 .freshLink{
+    grid-row: 4;
     text-align: center;
     width: 80%;
     height: min-content;
     background-color: #D5A18E;
     border-radius: 15px;
+    transition: all 0.4s;
+}
+.freshLink:hover{
+    transform: scale(1.2);
 }
 .weather{
+    grid-row: 5;
     margin-top: 2.5rem;
-
 }
-
 footer{
     background-color: #DEC3BE;
     border: solid #DD7E93 5px ;

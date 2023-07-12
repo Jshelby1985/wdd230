@@ -1,0 +1,39 @@
+@media only screen and (min-width: 520px) {
+
+    
+    header{
+        /*border: solid 1px black;*/
+        display:grid;
+        grid-template-columns: 1fr 3fr .5fr;
+        grid-template-rows: none;
+    }
+
+    
+    .nav-bar{
+        display: grid;
+        height: 105px;
+        grid-column: 2;
+        grid-row: 1;
+        background-color:#7EA089 ;
+    }
+
+    .navigation li:first-child{
+        font-size: 3rem;
+    }
+    .navigation li{
+        font-size: 3rem;
+    }
+
+    li a{
+        font-size: 4rem;
+        box-shadow: 15px;
+    }
+
+    div.media{
+        display: flex;
+        flex-direction: column;
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+}
