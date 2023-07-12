@@ -126,8 +126,10 @@ div.media div{
 main{
     /*border: solid 1px black;*/
     display:grid;
-    grid-template-rows: 1fr 1fr 1fr .5fr 1fr;
-    justify-items: center;}
+    grid-row: 2;
+    justify-items: center;
+    grid-template-rows: 1fr .5fr 2.25fr .5fr 1fr;
+}
 main #areaDetails{
     grid-row: 1;
     border: solid 1px;
