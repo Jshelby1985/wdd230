@@ -117,10 +117,12 @@ li a{
     color: #D5A18E;
     text-shadow: black 2px 2px 2px;
     text-decoration-line: none;
+    transform: scale(1.3);
     /*border: solid #DD7E93 2px;*/
 }
 a:hover{
     text-decoration-line:underline;
+
 
 }
 .hamburger-menu{
@@ -142,10 +144,10 @@ div.media div{
 
 main{
     /*border: solid 1px black;*/
-    display: grid;
+    display:grid;
     grid-row: 2;
     justify-items: center;
-    grid-template-rows: 2fr 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr .5fr 1fr;
 
 }
 main #areaDetails{
@@ -166,6 +168,7 @@ main .counter{
     text-align: center;
     background-color: #DD7E93;
     border-radius: 10px;
+    margin-top: 2.5rem;
 }
 .slideshow{
     display: flex;
@@ -173,7 +176,7 @@ main .counter{
     height: fit-content;
     position:relative;
     align-content: center;
-    
+    margin-top: 2.5rem;
 }
 .slideshow-img {
     position: absolute;
@@ -190,7 +193,10 @@ main .counter{
     background-color: #D5A18E;
     border-radius: 15px;
 }
+.weather{
+    margin-top: 2.5rem;
 
+}
 
 footer{
     background-color: #DEC3BE;
