@@ -52,7 +52,7 @@
 
         <div id="areaDetails">
             <picture>
-                <img src="images/market-small.jpg" alt="fruit-market">
+               <img src="images/market-small.jpg" srcset="images/market-medium.jpg 520px, images/market-large.jpg 800px" alt="fruit-market">
                 <div id="details">
                     <p>California is home to many of the best organic fruits
                         and vegetables in the country. We have partnered with 
@@ -68,38 +68,71 @@
         </div>
         <div class="slideshow">
             <picture>
-                <source media="(min width: 800px)" srcset="images/allGreen-large.jpg">
-                <source media="(min width: 520px)" srcset="images/allGreen-medium.jpg">
-                <img src="images/allGreen-small.jpg" class="slideshow-img" alt="slideshow img1">
+
+                <img class="slideshow-img" src="images/allGreen-small.jpg" srcset="images/allGreen-medium.jpg 520px, images/allGreen-large.jpg 800px" alt="slideshow img1">
+
             </picture>
             <picture>
-                <source media="(min width: 800px)" srcset="images/OBC-large.jpg">
-                <source media="(min width: 520px)" srcset="images/OBC-medium.jpg">
-                <img src="images/OBC-small.jpg" class="slideshow-img" alt="slideshow img2">
+                <img class="slideshow-img" src="images/OBC-small.jpg" srcset="images/OBC-medium.jpg 520px, images/OBC-large.jpg 800px" alt="slideshow img2">
+
             </picture>
             <picture>
-                <source media="(min width: 800px)" srcset="images/OPL-large.jpg">
-                <source media="(min width: 520px)" srcset="images/OPL-medium.jpg">
-                <img src="images/OPL-small.jpg" class="slideshow-img" alt="slideshow img3">
+                <img class="slideshow-img" src="images/OPL-small.jpg" srcset="images/OPL-medium.jpg 520px, images/OPL-large.jpg 800px" alt="slideshow img3">
+
             </picture>
             <picture>
-                <source media="(min width: 800px)" srcset="images/TPA-large.jpg">
-                <source media="(min width: 520px)" srcset="images/TPA-medium.jpg">
-                <img src="images/TPA-small.jpg" class="slideshow-img" alt="slideshow img5">
+                <img class="slideshow-img" src="images/TPA-small.jpg" srcset="images/TPA-medium.jpg 520px, images/TPA-large.jpg 800px" alt="slideshow img5">
+
             </picture>
         </div>
         <div class="freshLink">
             <a href="fresh.html" style="font-size: 2em;">Try Making Your Own!!!</a>
         </div>
         <div class="weather">
-            <p>Weather api</p>
+            <p id="temp">Temp: <span id="current-temp"></span> &deg;F</p>
+            <figure>
+                <img src="x" alt="Weather Icon" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+            <p id="humidity"><span id="humid"></span>% Humidity</p>
+            <figure>
+                <img src="x" alt="day 1" id="day1">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="x" alt="day 2" id="day1">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="x" alt="day 3" id="day1">
+                <figcaption></figcaption>
+            </figure>
+
         </div>
     </main>
     <footer>
+        <div class="address">
+            <p>Business Address:
+                <br>850 Ramarack Ave
+                <br>Carlsbad, CA 92008
+            </p>
+        </div>
+        <div class="hours">
+            <p>
+                Summer Hours:
+                M-F   6am - 9pm |
+                Sat   6am - 11pm |
+                Sun   Closed
+            </p>
+        </div>
+        <div class="map">
+            <a href="https://www.google.com/search?q=850+tamarack+ave&rlz=1C1GCEU_enUS874US875&oq=850+Tamarack+Ave&aqs=chrome.0.0i512j0i20i263i512j69i60.989j0j7&sourceid=chrome&ie=UTF-8#"> <img src="images/map.jpg" alt=""></a>
+        </div>
+    </footer>
         <div id="dateStamp">
             <p> &copy; <span id="year"></span> - Bountiful Foods Site Plan | Jeremy Shelby | WDD230 Project | Last Updated: <span id="lastUpdate"></span></p>
         </div>
-    </footer>
+
     <script src ="scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/be7978985f.js" crossorigin="anonymous"></script>
 

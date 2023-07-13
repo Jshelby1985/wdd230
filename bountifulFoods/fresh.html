@@ -10,10 +10,144 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Indie+Flower&family=Tangerine:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
         <link rel="stylesheet" href="styles/large.css">
 
     </head>
 <body>
-    
+    <header>
+        <picture>
+           <img src="images/logo.jpg" alt="BountifulFoodsLogo">
+        </picture>
+        <nav class="nav-bar">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>  
+
+        <div class="media">
+            <div id="fb">
+                <a class="media" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook fa-2xl" style="color: blue;"></i></a>
+            </div>
+            <div id="tw">
+                <a class="media" href="https://www.twitter.com"><i class="fa-brands fa-square-twitter fa-2xl" style="color: cyan;"></i></a>
+            </div>
+            <div id="inst">
+                <a class="media" href="https://www.instagram.com"><i class="fa-brands fa-square-instagram fa-2xl" style="color: blueviolet;"></i></a>
+            </div>
+
+        </div> 
+    </header>
+    <main class="freshPage">
+        <form class="form" method="get" action="thanks.html">
+            <fieldset>
+                <legend>Choose Your Ingredients</legend>
+                <label id="ingredient1" for="ingredient">Ingredient 1:
+                <select name="ingredient">
+                    <option value="strawberry">Strawberry</option>
+                    <option value="kiwi">Kiwi</option>
+                    <option value="mango">Mango</option>
+                    <option value="orange">Orange</option>
+                    <option value="lemon">Lemon</option>
+                    <option value="lime">Lime</option>
+                    <option value="banana">Banana</option>
+                    <option value="pineapple">Pineapple</option>
+                    <option value="kale">Kale</option>
+                    <option value="spinach">Spinach</option>
+                    <option value="carrot">Carrot</option>
+                    <option value=""></option>
+                </select></label>
+
+                <label id="ingredient2" for="ingredient">Ingredient 2:
+                <select name="ingredient">
+                    <option value="strawberry">Strawberry</option>
+                    <option value="kiwi">Kiwi</option>
+                    <option value="mango">Mango</option>
+                    <option value="orange">Orange</option>
+                    <option value="lemon">Lemon</option>
+                    <option value="lime">Lime</option>
+                    <option value="banana">Banana</option>
+                    <option value="pineapple">Pineapple</option>
+                    <option value="kale">Kale</option>
+                    <option value="spinach">Spinach</option>
+                    <option value="carrot">Carrot</option>
+                    <option value=""></option>
+                </select></label>
+
+                <label id="ingredient3" for="ingredient">Ingredient 3:
+                <select name="ingredient" >
+                    <option value="strawberry">Strawberry</option>
+                    <option value="kiwi">Kiwi</option>
+                    <option value="mango">Mango</option>
+                    <option value="orange">Orange</option>
+                    <option value="lemon">Lemon</option>
+                    <option value="lime">Lime</option>
+                    <option value="banana">Banana</option>
+                    <option value="pineapple">Pineapple</option>
+                    <option value="kale">Kale</option>
+                    <option value="spinach">Spinach</option>
+                    <option value="carrot">Carrot</option>
+                    <option value=""></option>
+                </select></label>
+
+
+                <label class="fname">First Name* <input type="text" name="fname" required></label>
+
+                <label class="lname">Last Name <input type="text" name="lname"></label>
+
+                <label class="phone">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+
+                <label class="mail">Email <input type="email" name="email" placeholder="someone@email.com"></label>
+                
+
+                <label id="pickup" for="location">Pickup Location:
+                <select name="location" id="location">
+                    <option value="store">Store</option>
+                    <option value="Truck1">Truck 1</option>
+                    <option value="truck2">Truck 2</option>
+                    <option value="truck3">Truck 3</option>
+                </select></label>
+
+                <textarea class="instruction" name="instructions" id="instructions" cols="50" rows="14" placeholder="Add Special Instructions"></textarea>
+                <input type="submit" value="Place My Order" class="submitBtn" style="background-color: chartreuse;">
+
+            </fieldset>
+
+        </form>
+        <footer class="freshFoot">
+            <div class="address">
+                <p>Business Address:
+                    <br>850 Ramarack Ave
+                    <br>Carlsbad, CA 92008
+                </p>
+            </div>
+            <div class="hours">
+                <p>
+                    Summer Hours:
+                    M-F   6am - 9pm |
+                    Sat   6am - 11pm |
+                    Sun   Closed
+                </p>
+            </div>
+            <div class="map">
+                <a href="https://www.google.com/search?q=850+tamarack+ave&rlz=1C1GCEU_enUS874US875&oq=850+Tamarack+Ave&aqs=chrome.0.0i512j0i20i263i512j69i60.989j0j7&sourceid=chrome&ie=UTF-8#"> <img src="images/map.jpg" alt=""></a>
+            </div>
+        </footer>
+            <div id="dateStamp">
+                <p> &copy; <span id="year"></span> - Bountiful Foods Site Plan | Jeremy Shelby | WDD230 Project | Last Updated: <span id="lastUpdate"></span></p>
+            </div>
+    </main>
+    <script src ="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/be7978985f.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
