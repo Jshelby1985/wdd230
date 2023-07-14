@@ -21,6 +21,10 @@ p{
     font-family: 'Alegreya Sans', sans-serif;
     Font-size: 24px;
 }
+a{
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
 .colors, .nav-bar{
     background-color: #7EA089;
 }
@@ -132,7 +136,6 @@ main{
 }
 main #areaDetails{
     grid-row: 1;
-    border: solid 1px;
     width: 90%;
     margin: auto;
 }
@@ -152,13 +155,16 @@ main .counter{
     border-radius: 10px;
     margin-top: 2.5rem;
 }
+main .counter a{
+    font-size: 2rem;
+    color: black;
+
+}
 .slideshow{
-    display: flex;
     grid-row: 3;
     width: 90%;
     height: fit-content;
     position:relative;
-    align-content: center;
     margin-top: 2.5rem;
 }
 .slideshow-img {
@@ -166,7 +172,6 @@ main .counter{
     top: 0;
     left: 0;
     max-width: 100%;
-    height: 280px;
     display: block;
 }
 .freshLink{
@@ -234,69 +239,67 @@ footer .map{
 /*Form Page*/
 .freshPage{
     /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
     grid-row: 2;
-    justify-items: center;
-    width: 100%;
-    grid-template-columns: none;
-    grid-template-rows:2fr .5fr;
+    width: 100% ;
+    grid-template-rows:2fr .25fr;
+    /*background-image: url("../images/smoothie.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+*/
 }
-
-
 
 form fieldset{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
-    padding: 0 3rem 0 3rem;
-    margin: 5rem 0 5rem;
+    grid-template-columns: none ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr 1fr;
+    max-width: 90%;
+    padding: 0 .5rem 0 .5rem;
+    background-color: #7EA089;
+    border-radius: 15px;
+    text-justify: center;
+    text-align: left;
+    margin: 10%;
 
 }
 .form #ingredient1{
-    grid-column: 1;
     grid-row: 1;
     margin: 5px;
 }
 .form #ingredient2{
-    grid-column: 2;
-    grid-row: 1;
-}
-.form #ingredient3{
-    grid-column: 3;
-    grid-row: 1;
-}
-.form .fname{
-    grid-column: 1;
     grid-row: 2;
 }
-.form .lname{
-    grid-column: 1;
+.form #ingredient3{
     grid-row: 3;
+}
+.form .fname{
+    grid-row: 4;
+}
+.form .lname{
+    grid-row: 5;
     margin: 5px;
 
 }
 .form .phone{
-    grid-column: 1;
-    grid-row: 4;
+    grid-row: 6;
 }
 .form .mail{
-    grid-column: 1;
-    grid-row: 5;
+    grid-row: 7;
 }.form #pickup{
-    grid-column: 1;
-    grid-row: 6;
+    grid-row: 8;
 }
 
 .form .instruction{
-    grid-column: 2/4;
-    grid-row: 2/7;
+    grid-row: 9;
     background-color: #DEC3BE;
 }
 .form .submitBtn{
-    grid-column: 2;
-    grid-row: 7;
+    grid-row: 10;
+    width: 50%;
+    height: 40%;
+    border-radius: 1rem;
 }
 
 footer.freshFoot{
