@@ -134,3 +134,5 @@ async function apiFetch() {
     //    <p>Sugar: ${nutritions.sugar.toFixed(2)}</p>
     //  `;
   //});
+
+  //test
