@@ -65,9 +65,10 @@
             </picture>
         </div>
         <div class="counter">
-           <A href="fresh.html ">You have already made <span id="count"></span> drinks! How about one more?</A>
-            
-
+           <A href="fresh.html "><h1 id="count">-</h1></A>
+        </div>
+        <div>
+            <h1 class="slidesLable">Check out some of the local favorites!</h1>
         </div>
         <div class="slideshow">
             <picture>
@@ -100,25 +101,9 @@
             <a href="fresh.html" style="font-size: 2em;">Try Making Your Own!!!</a>
         </div>
         <div class="weather">
-            <p id="temp">Temp: <span id="current-temp"></span> &deg;F</p>
-            <figure>
-                <img src="x" alt="Weather Icon" id="weather-icon">
-                <figcaption></figcaption>
-            </figure>
-            <p id="humidity"><span id="humid"></span>% Humidity</p>
-            <figure>
-                <img src="x" alt="day 1" id="day1">
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="x" alt="day 2" id="day1">
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="x" alt="day 3" id="day1">
-                <figcaption></figcaption>
-            </figure>
-
+            
+            <div id="openweathermap-widget-11"></div>
+            
         </div>
     </main>
     <footer>
@@ -129,6 +114,7 @@
             </p>
         </div>
         <div class="hours">
+            <p>Phone: (555)555-5555</p>
             <p>
                 Summer Hours:
                 M-F   6am - 9pm |
@@ -143,6 +129,7 @@
         <div id="dateStamp">
             <p> &copy; <span id="year"></span> - Bountiful Foods Site Plan | Jeremy Shelby | WDD230 Project | Last Updated: <span id="lastUpdate"></span></p>
         </div>
+    <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
 
     <script src ="scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/be7978985f.js" crossorigin="anonymous"></script>

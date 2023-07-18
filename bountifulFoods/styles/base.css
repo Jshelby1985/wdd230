@@ -119,7 +119,7 @@ div.media{
     grid-row: 2;
 }
 div.media div{
-    margin: 20px;
+    margin: 8%;
     height: 5px;
 }
 
@@ -132,7 +132,8 @@ main{
     display:grid;
     grid-row: 2;
     justify-items: center;
-    grid-template-rows: 1fr .5fr 2.25fr .5fr 1fr;
+
+    grid-template-rows: 1fr .25fr .25fr 2fr .5fr 1fr;
 }
 main #areaDetails{
     grid-row: 1;
@@ -153,19 +154,25 @@ main .counter{
     text-align: center;
     background-color: #DD7E93;
     border-radius: 10px;
-    margin-top: 2.5rem;
+    margin: auto;
 }
 main .counter a{
     font-size: 2rem;
     color: black;
 
 }
-.slideshow{
+.slidesLable{
     grid-row: 3;
+}
+.slideshow{
+    display: block;
+    grid-row: 4;
     width: 90%;
     height: fit-content;
     position:relative;
     margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .slideshow-img {
     position: absolute;
@@ -175,8 +182,9 @@ main .counter a{
     display: block;
 }
 .freshLink{
-    grid-row: 4;
+    grid-row: 5;
     text-align: center;
+    margin: auto;
     width: 80%;
     height: min-content;
     background-color: #D5A18E;
@@ -187,11 +195,9 @@ main .counter a{
     transform: scale(1.2);
 }
 .weather{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .5fr .5fr .5fr;
-    grid-row: 5;
+    grid-row: 6;    
     margin-top: 2.5rem;
+    max-width: 350px;
 }
 footer{
     background-color: #7EA089;
@@ -205,7 +211,7 @@ footer .address{
     grid-column: 1;
     grid-row: 1;
     padding: .2em;
-    /*border: solid 2px #DD7E93;*/
+    border: solid 2px #DD7E93;
     text-align: center;
 }
 .address p{
@@ -215,7 +221,7 @@ footer .hours{
     grid-column: 1/3;
     grid-row: 2;
     padding: .2em 0 .2em;
-    /*border: solid 2px #DD7E93;*/
+    border: solid 2px #DD7E93;
     text-align: center;
 
 
@@ -226,7 +232,7 @@ footer .hours{
 footer .map{
     grid-column: 2;
     grid-row: 1;
-    /*border: solid 2px #DD7E93;*/
+    border: solid 2px #DD7E93;
     width: 220px;
     height: 145px;
 
@@ -243,7 +249,8 @@ footer .map{
     flex-direction: column;
     grid-row: 2;
     width: 100% ;
-    grid-template-rows:2fr .25fr;
+    margin: auto;
+    align-items: center;
     /*background-image: url("../images/smoothie.jpg");
     background-repeat: no-repeat;
     background-size:contain;
@@ -255,27 +262,33 @@ form fieldset{
     display: grid;
     grid-template-columns: none ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr 1fr;
-    max-width: 90%;
+    max-width: 100%;
     padding: 0 .5rem 0 .5rem;
     background-color: #7EA089;
     border-radius: 15px;
     text-justify: center;
     text-align: left;
-    margin: 10%;
+    margin: 1%;
 
 }
 .form #ingredient1{
     grid-row: 1;
-    margin: 5px;
+    margin: 5%;
 }
 .form #ingredient2{
     grid-row: 2;
+    margin: 5%;
+
 }
 .form #ingredient3{
     grid-row: 3;
+    margin: 5%;
+
 }
 .form .fname{
     grid-row: 4;
+    margin: 5%;
+
 }
 .form .lname{
     grid-row: 5;
@@ -284,11 +297,17 @@ form fieldset{
 }
 .form .phone{
     grid-row: 6;
+    margin: 5%;
+
 }
 .form .mail{
     grid-row: 7;
+    margin: 5%;
+
 }.form #pickup{
     grid-row: 8;
+    margin: 5%;
+
 }
 
 .form .instruction{
@@ -300,11 +319,31 @@ form fieldset{
     width: 50%;
     height: 40%;
     border-radius: 1rem;
+    margin: auto;
 }
 
 footer.freshFoot{
     width: 100%;
     justify-items: center;
     align-items: center;
+}
+
+main.about{
+    grid-template-columns: 1fr;
+    grid-template-rows: .125fr 1fr .25fr .125fr .75fr .25fr;
+}
+
+h1.label{
+    background-color:#D5A18E;
+    border-bottom: solid 3px black;
+    text-align: center;
+    padding-top:8%;
+    width: 100%;
+}
+main.about p{
+    margin: 10%;
+}
+main.about img{
+    max-width: 375px;
 }
 
