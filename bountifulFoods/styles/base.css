@@ -132,8 +132,8 @@ main{
     display:grid;
     grid-row: 2;
     justify-items: center;
-
-    grid-template-rows: 1fr .25fr .25fr 2fr .5fr 1fr;
+    grid-template-rows: 1fr .5fr .5fr 1fr .5fr 3fr;
+    padding: auto;
 }
 main #areaDetails{
     grid-row: 1;
@@ -163,6 +163,8 @@ main .counter a{
 }
 .slidesLable{
     grid-row: 3;
+    margin-top: 15%;
+    text-align: center;
 }
 .slideshow{
     display: block;
@@ -197,7 +199,12 @@ main .counter a{
 .weather{
     grid-row: 6;    
     margin-top: 2.5rem;
-    max-width: 350px;
+    max-width: 375px;
+    width: 70%;
+}
+
+.weather #openweathermap-widget-11{
+    width: 90%;
 }
 footer{
     background-color: #7EA089;
