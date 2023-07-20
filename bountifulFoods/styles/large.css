@@ -41,7 +41,7 @@
     }
 
     main{
-        grid-template-rows: 1fr .25fr 1.125fr .5fr 1fr;
+        grid-template-rows: 1fr .25fr .25fr 1.125fr .5fr 1fr;
     }
 
     #areaDetails picture #details p{

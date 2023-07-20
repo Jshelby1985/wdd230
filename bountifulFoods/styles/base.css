@@ -57,6 +57,7 @@ header{
     border: solid #DD7E93 5px;
     align-items: center;
     justify-items: center;
+    z-index: 10;
 }
 header picture{
     grid-column: 1;
@@ -132,7 +133,7 @@ main{
     display:grid;
     grid-row: 2;
     justify-items: center;
-    grid-template-rows: 1fr .5fr .5fr 1fr .5fr 3fr;
+    grid-template-rows: 1fr .5fr .5fr 1.5fr .5fr 3fr;
     padding: auto;
 }
 main #areaDetails{
@@ -203,9 +204,14 @@ main .counter a{
     width: 70%;
 }
 
-.weather #openweathermap-widget-11{
-    width: 90%;
+.weather {
+    padding: ;
 }
+.weather-cast{
+    border: solid 2px black;
+    background-color: #DEC3BE;
+}
+
 footer{
     background-color: #7EA089;
     border: solid #DD7E93 5px ;
@@ -354,3 +360,6 @@ main.about img{
     max-width: 375px;
 }
 
+#weather .weather-cast p{
+    font-size: 1rem;
+}

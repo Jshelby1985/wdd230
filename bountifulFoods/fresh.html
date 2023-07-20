@@ -48,56 +48,22 @@
         </div> 
     </header>
     <main class="freshPage">
-        <form class="form" method="get" action="thanks.html">
+        <form class="form" action="javascript:placeOrder()">
             <h1 style="font-size: 2rem;">Choose Your Ingredients</h1>
 
             <fieldset>
-                <label id="ingredient1" for="ingredient">Ingredient 1:
-                <select name="ingredient">
-                    <option value="strawberry">Strawberry</option>
-                    <option value="kiwi">Kiwi</option>
-                    <option value="mango">Mango</option>
-                    <option value="orange">Orange</option>
-                    <option value="lemon">Lemon</option>
-                    <option value="lime">Lime</option>
-                    <option value="banana">Banana</option>
-                    <option value="pineapple">Pineapple</option>
-                    <option value="kale">Kale</option>
-                    <option value="spinach">Spinach</option>
-                    <option value="carrot">Carrot</option>
-                    <option value=""></option>
+                <label for="ingredient1">Ingredient 1:
+                <select name="ingredient1" id="ingredient1">
+                
+                </select>
+                </label>
+
+                <label for="ingredient2">Ingredient 2:
+                <select name="ingredient2" id="ingredient2">
                 </select></label>
 
-                <label id="ingredient2" for="ingredient">Ingredient 2:
-                <select name="ingredient">
-                    <option value="strawberry">Strawberry</option>
-                    <option value="kiwi">Kiwi</option>
-                    <option value="mango">Mango</option>
-                    <option value="orange">Orange</option>
-                    <option value="lemon">Lemon</option>
-                    <option value="lime">Lime</option>
-                    <option value="banana">Banana</option>
-                    <option value="pineapple">Pineapple</option>
-                    <option value="kale">Kale</option>
-                    <option value="spinach">Spinach</option>
-                    <option value="carrot">Carrot</option>
-                    <option value=""></option>
-                </select></label>
-
-                <label id="ingredient3" for="ingredient">Ingredient 3:
-                <select name="ingredient" >
-                    <option value="strawberry">Strawberry</option>
-                    <option value="kiwi">Kiwi</option>
-                    <option value="mango">Mango</option>
-                    <option value="orange">Orange</option>
-                    <option value="lemon">Lemon</option>
-                    <option value="lime">Lime</option>
-                    <option value="banana">Banana</option>
-                    <option value="pineapple">Pineapple</option>
-                    <option value="kale">Kale</option>
-                    <option value="spinach">Spinach</option>
-                    <option value="carrot">Carrot</option>
-                    <option value=""></option>
+                <label for="ingredient3">Ingredient 3:
+                <select name="ingredient3" id="ingredient3" >
                 </select></label>
 
 
@@ -123,6 +89,9 @@
 
             </fieldset>
 
+            <div id="receipt">
+
+            </div>
         </form>
         <footer class="freshFoot">
             <div class="address">
@@ -147,7 +116,8 @@
                 <p> &copy; <span id="year"></span> - Bountiful Foods Site Plan | Jeremy Shelby | WDD230 Project | Last Updated: <span id="lastUpdate"></span></p>
             </div>
     </main>
-    <script src ="scripts/script.js"></script>
+    <script src="scripts/fresh.js"></script>
+    <script src="scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/be7978985f.js" crossorigin="anonymous"></script>
 
 </body>

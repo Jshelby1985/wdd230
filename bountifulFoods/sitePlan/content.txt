@@ -82,13 +82,50 @@ SPECIFICATIONS
 
 
 
-<div id="openweathermap-widget-11"></div>
-<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
-<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
-    window.myWidgetParam.push({id: 11,cityid: '5334223',appid: 'b840405b3f4959aafe6b1fb2a87611a3',units: 'imperial',containerid: 'openweathermap-widget-11',  });
-      (function() {var script = document.createElement('script');
-      script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(script, s); 
-      })();
-      </script>
+
+"cod": "200",
+  "message": 0,
+  "cnt": 40,
+  "list": [{
+      "dt":1689735600,
+        "main":{
+            "temp":64.58,
+            "feels_like":65.1,
+            "temp_min":64.58,
+            "temp_max":64.58,
+            "pressure":1014,
+            "sea_level":1014,
+            "grnd_level":1014,
+            "humidity":93,
+            "temp_kf":0
+        },
+        "weather":[{
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01n"
+        }],
+        "clouds":{
+            "all":1
+        },
+        "wind":{
+            "speed":11.74,
+            "deg":324,
+            "gust":16.06
+        },
+        "visibility":10000,
+        "pop":0,
+        "sys":{
+            "pod":"n"
+        },
+        "dt_txt":"2023-07-19 03:00:00"
+      }]
+      
+      
+      
+      {"dt":1689746400,"main":{"temp":64.51,"feels_like":65.03,"temp_min":64.38,"temp_max":64.51,"pressure":1014,"sea_level":1014,"grnd_level":1015,"humidity":93,"temp_kf":0.07},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"clouds":{"all":1},"wind":{"speed":11.32,"deg":320,"gust":14.58},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2023-07-19 06:00:00"},
+      {"dt":1689757200,"main":{"temp":64.26,"feels_like":64.76,"temp_min":64.09,"temp_max":64.26,"pressure":1014,"sea_level":1014,"grnd_level":1014,"humidity":93,"temp_kf":0.09},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"clouds":{"all":0},"wind":{"speed":11.99,"deg":314,"gust":14.88},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2023-07-19 09:00:00"},
+      {"dt":1689768000,"main":{"temp":63.82,"feels_like":64.27,"temp_min":63.82,"temp_max":63.82,"pressure":1014,"sea_level":1014,"grnd_level":1014,"humidity":93,"temp_kf":0},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"clouds":{"all":0},"wind":{"speed":12.8,"deg":319,"gust":16.17},"visibility":10000,"pop":0,"sys":{"pod":"n"},"dt_txt":"2023-07-19 12:00:00"},
+      {"dt":1689778800,"main":{"temp":64.09,"feels_like":64.53,"temp_min":64.09,"temp_max":64.09,"pressure":1015,"sea_level":1015,"grnd_level":1015,"humidity":92,"temp_kf":0},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"clouds":{"all":1},"wind":{"speed":12.62,"deg":317,"gust":16.62},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2023-07-19 15:00:00"},
+      {"dt":1689789600,"main":{"temp":64.45,"feels_like":64.87,"temp_min":64.45,"temp_max":64.45,"pressure":1016,"sea_level":1016,"grnd_level":1016,"humidity":91,"temp_kf":0},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"clouds":{"all":1},"wind":{"speed":12.19,"deg":306,"gust":15.68},"visibility":10000,"pop":0,"sys":{"pod":"d"},"dt_txt":"2023-07-19 18:00:00"},
+      
